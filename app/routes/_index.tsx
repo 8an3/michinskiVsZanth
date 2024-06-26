@@ -3,13 +3,9 @@
 
 import type { MetaFunction } from "@remix-run/node";
 import * as React from "react"
-
-
-import { siteConfig } from "~/config/site"
-import { cn } from "~/lib/utils"
-import { Icons } from "~/components/icons"
-import { Badge } from "~/registry/new-york/ui/badge"
-import { Link } from "@remix-run/react";
+import { cn } from "~/components/utils"
+import { Badge } from "~/components/ui/badge"
+import { Link, useLocation } from "@remix-run/react";
 
 
 export const meta: MetaFunction = () => {
@@ -20,13 +16,13 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  const pathname = usePathname()
+  const location = useLocation()
+  const pathname = location.pathname
 
   return (
     <div className="font-sans p-4">
       <div className="mr-4 hidden md:flex">
         <Link to="/" className="mr-6 flex items-center space-x-2">
-          <Icons.logo className="h-6 w-6" />
           <span className="hidden font-bold sm:inline-block">
             Michinski Vs. Zanth
           </span>
@@ -45,7 +41,7 @@ export default function Index() {
             to="/answer"
             className={cn(
               "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("/answer")
+              pathname?.startsWith("answer")
                 ? "text-foreground"
                 : "text-foreground/60"
             )}
@@ -56,7 +52,7 @@ export default function Index() {
             to="/reply"
             className={cn(
               "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("/reply")
+              pathname?.startsWith("reply")
                 ? "text-foreground"
                 : "text-foreground/60"
             )}
@@ -67,7 +63,7 @@ export default function Index() {
             to="/noticeOfMotion"
             className={cn(
               "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("/noticeOfMotion")
+              pathname?.startsWith("noticeOfMotion")
                 ? "text-foreground"
                 : "text-foreground/60"
             )}
@@ -78,7 +74,7 @@ export default function Index() {
             to="/exhibits"
             className={cn(
               "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("/exhibitsp")
+              pathname?.startsWith("exhibitsp")
                 ? "text-foreground"
                 : "text-foreground/60"
             )}
@@ -86,7 +82,7 @@ export default function Index() {
             Exhibits
           </Link>
           <Link
-            to={siteConfig.links.github}
+            to="/exhibits"
             className={cn(
               "hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
             )}
