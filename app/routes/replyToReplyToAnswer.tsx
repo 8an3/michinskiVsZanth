@@ -7,34 +7,35 @@ import {
 } from "@remix-run/react";
 import { useEffect, useRef } from "react";
 
-import oneanswer from '~/components/answer/one_answer.jpg'
-import twoanswer from '~/components/answer/two_answer.jpg'
-import threeanswer from '~/components/answer/three_answer.jpg'
-import four_answer from '~/components/answer/four_answer.jpg'
-import five_answer from '~/components/answer/five_answer.jpg'
-import six_answer from '~/components/answer/six_answer.jpg'
-import seven_answer from '~/components/answer/seven_answer.jpg'
-import eight_answer from '~/components/answer/eight_answer.jpg'
-import nine_answer from '~/components/answer/nine_answer.jpg'
-import ten_answer from '~/components/answer/ten_answer.jpg'
-import eleven_answer from '~/components/answer/eleven_answer.jpg'
-import twelve_answer from '~/components/answer/twelve_answer.jpg'
-import thirteen_answer from '~/components/answer/thirteen_answer.jpg'
-import fourteen_answer from '~/components/answer/fourteen_answer.jpg'
-import fifteen_answer from '~/components/answer/fifteen_answer.jpg'
-import sixteen_answer from '~/components/answer/sixteen_answer.jpg'
-import seventeen_answer from '~/components/answer/seventeen_answer.jpg'
-import eighteen_answer from '~/components/answer/eighteen_answer.jpg'
-import twenty_answer from '~/components/answer/twenty_answer.jpg'
-import twentyone_answer from '~/components/answer/twentyone_answer.jpg'
-import twentytwo_answer from '~/components/answer/twentytwo_answer.jpg'
-import twentythree_answer from '~/components/answer/twentythree_answer.jpg'
-import twentyfour_answer from '~/components/answer/twentyfour_answer.jpg'
-import twentyfive_answer from '~/components/answer/twentyfive_answer.jpg'
-import twentysix_answer from '~/components/answer/twentysix_answer.jpg'
-import twentyseven_answer from '~/components/answer/twentyseven_answer.jpg'
-import twentyeight_answer from '~/components/answer/twentyeight_answer.jpg'
-import twentynine_answer from '~/components/answer/twentynine_answer.jpg'
+import oneanswer from '~/components/answer/oneanswer.jpg'
+import twoanswer from '~/components/answer/twoanswer.jpg'
+import threeanswer from '~/components/answer/threeanswer.jpg'
+import fouranswer from '~/components/answer/fouranswer.jpg'
+import fiveanswer from '~/components/answer/fiveanswer.jpg'
+import sixanswer from '~/components/answer/sixanswer.jpg'
+import sevenanswer from '~/components/answer/sevenanswer.jpg'
+import eightanswer from '~/components/answer/eightanswer.jpg'
+import nineanswer from '~/components/answer/nineanswer.jpg'
+import tenanswer from '~/components/answer/tenanswer.jpg'
+import elevenanswer from '~/components/answer/elevenanswer.jpg'
+import twelveanswer from '~/components/answer/twelveanswer.jpg'
+import thirteenanswer from '~/components/answer/thirteenanswer.jpg'
+import fourteenanswer from '~/components/answer/fourteenanswer.jpg'
+import fifteenanswer from '~/components/answer/fifteenanswer.jpg'
+import sixteenanswer from '~/components/answer/sixteenanswer.jpg'
+import seventeenanswer from '~/components/answer/seventeenanswer.jpg'
+import eighteenanswer from '~/components/answer/eighteenanswer.jpg'
+import twentyanswer from '~/components/answer/twentyanswer.jpg'
+import twentyoneanswer from '~/components/answer/twentyoneanswer.jpg'
+import twentytwoanswer from '~/components/answer/twentytwoanswer.jpg'
+import twentythreeanswer from '~/components/answer/twentythreeanswer.jpg'
+import twentyfouranswer from '~/components/answer/twentyfouranswer.jpg'
+import twentyfiveanswer from '~/components/answer/twentyfiveanswer.jpg'
+import twentysixanswer from '~/components/answer/twentysixanswer.jpg'
+import twentysevenanswer from '~/components/answer/twentysevenanswer.jpg'
+import twentyeightanswer from '~/components/answer/twentyeightanswer.jpg'
+import twentynineanswer from '~/components/answer/twentynineanswer.jpg'
+
 
 /*
 import thirtyone_answer from '~/components/answer/thirtyone_answer.pdf'
@@ -117,112 +118,35 @@ export async function clientAction({ request }: ClientActionFunctionArgs) {
 }
 export default function NewFile() {
   const imageList = [
-    {
-      img: first
-    },
-    {
-      img: second
-    },
-    {
-      img: third
-    },
-    {
-      img: forth
-    },
-    {
-      img: fith
-    },
-    {
-      img: sixth
-    },
     { img: oneanswer },
     { img: twoanswer },
-    { img: twoanswer2 },
     { img: threeanswer },
-    { img: four_answer },
-    { img: five_answer },
-    { img: six_answer },
-    { img: seven_answer },
-    { img: eight_answer },
-    { img: nine_answer },
-    { img: ten_answer },
-    { img: eleven_answer },
-    { img: twelve_answer },
-    { img: thirteen_answer },
-    { img: fourteen_answer },
-    { img: fifteen_answer },
-    { img: sixteen_answer },
-    { img: seventeen_answer },
-    { img: eighteen_answer },
-    { img: twenty_answer },
-    { img: twentyone_answer },
-    { img: twentytwo_answer },
-    { img: twentythree_answer },
-    { img: twentyfour_answer },
-    { img: twentyfive_answer },
-    { img: twentysix_answer },
-    { img: twentyseven_answer },
-    { img: twentyeight_answer },
-    { img: twentynine_answer },
-    { img: thirtyone_answer },
-    { img: thirtytwo_answer },
-    { img: thirtythree_answer },
-    { img: thirtyfour_answer },
-    { img: thirtyfive_answer },
-    { img: thirtysix_answer },
-    { img: thirtyseven_answer },
-    { img: thirtyeight_answer },
-    { img: thirtynine_answer },
-    { img: forty_answer },
-    { img: fortyone_answer },
-    { img: fortytwo_answer },
-    { img: fortythree_answer },
-    { img: fortyfour_answer },
-    { img: fortyfive_answer },
-    { img: fortysix_answer },
-    { img: fortyseven_answer },
-    { img: fortyeight_answer },
-    { img: fortynine_answer },
-    { img: fifty_answer },
-    { img: fiftyone_answer },
-    { img: fiftytwo_answer },
-    { img: fiftythree_answer },
-    { img: fiftyfour_answer },
-    { img: fiftyfive_answer },
-    { img: fiftysix_answer },
-    { img: fiftyseven_answer },
-    { img: fiftyeight_answer },
-    { img: fiftynine_answer },
-    { img: sixty_answer },
-    { img: sixtyone_answer },
-    { img: sixtytwo_answer },
-    { img: sixtythree_answer },
-    { img: sixtyfour_answer },
-    { img: sixtyfive_answer },
-    { img: sixtysix_answer },
-    { img: sixtyseven_answer },
-    { img: sixtyeight_answer },
-    { img: sixtynine_answer },
-    { img: seventy_answer },
-    { img: seventyone_answer },
-    { img: seventytwo_answer },
-    { img: seventythree_answer },
-    { img: seventyfour_answer },
-    { img: seventyfive_answer },
-    { img: seventysix_answer },
-    { img: seventyseven_answer },
-    { img: seventyeight_answer },
-    { img: seventynine_answer },
-    { img: eighty_answer },
-    { img: eightyone_answer },
-    { img: eightytwo_answer },
-    { img: eightythree_answer },
-    { img: eightyfour_answer },
-    { img: eightyfive_answer },
-    { img: eightysix_answer },
-    { img: eightyseven_answer },
-    { img: eightyeight_answer },
-    { img: eightynine_answer },
+    { img: fouranswer },
+    { img: fiveanswer },
+    { img: sixanswer },
+    { img: sevenanswer },
+    { img: eightanswer },
+    { img: nineanswer },
+    { img: tenanswer },
+    { img: elevenanswer },
+    { img: twelveanswer },
+    { img: thirteenanswer },
+    { img: fourteenanswer },
+    { img: fifteenanswer },
+    { img: sixteenanswer },
+    { img: seventeenanswer },
+    { img: eighteenanswer },
+    { img: twentyanswer },
+    { img: twentyoneanswer },
+    { img: twentytwoanswer },
+    { img: twentythreeanswer },
+    { img: twentyfouranswer },
+    { img: twentyfiveanswer },
+    { img: twentysixanswer },
+    { img: twentysevenanswer },
+    { img: twentyeightanswer },
+    { img: twentynineanswer },
+
   ]
   return (
     <Card className='max-h-[800px] h-[800px] overflow-y-scroll'>
