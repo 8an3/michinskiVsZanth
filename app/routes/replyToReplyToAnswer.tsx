@@ -6,12 +6,7 @@ import {
   useLoaderData,
 } from "@remix-run/react";
 import { useEffect, useRef } from "react";
-import first from '~/courtcase/application/first.jpg'
-import second from '~/courtcase/application/second.jpg'
-import third from '~/courtcase/application/third.jpg'
-import forth from '~/courtcase/application/forth.jpg'
-import fith from '~/courtcase/application/fith.jpg'
-import sixth from '~/courtcase/application/sixth.jpg'
+
 import oneanswer from '~/components/answer/one_answer.jpg'
 import twoanswer from '~/components/answer/two_answer.jpg'
 import threeanswer from '~/components/answer/three_answer.jpg'
