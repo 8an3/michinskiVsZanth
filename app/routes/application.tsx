@@ -25,7 +25,7 @@ import {
 } from "~/components/ui/card"
 
 export async function clientLoader() {
-  return null;
+  return { ok: true };
 }
 export async function clientAction({ request }: ClientActionFunctionArgs) {
 
