@@ -7,11 +7,11 @@ import {
 } from "@remix-run/react";
 import { useEffect, useRef } from "react";
 import first from '~/courtcase/application/Capture.jpg'
-import second from '~/courtcase/Capture2.jpg'
-import third from '~/courtcase/Capture3.jpg'
-import forth from '~/courtcase/Capture4.jpg'
-import fith from '~/courtcase/Capture65.jpg'
-import sixth from '~/courtcase/Capture 6.jpg'
+import second from '~/courtcase/application/Capture2.jpg'
+import third from '~/courtcase/application/Capture3.jpg'
+import forth from '~/courtcase/application/Capture4.jpg'
+import fith from '~/courtcase/application/Capture65.jpg'
+import sixth from '~/courtcase/application/Capture 6.jpg'
 
 import {
   Card,
@@ -63,7 +63,6 @@ export default function NewFile() {
             <div className="absolute top-0 bottom-0 left-1/2 border-l border-indigo-500"></div>
           </div>
           <div className="relative w-full flex gap-6 snap-x overflow-x-auto pb-14">
-
             {imageList.map((item) => (
               <div className="snap-center shrink-0 first:pl-8 last:pr-8">
                 <img className="shrink-0 w-[600px] h-[750px] object-cover rounded-lg shadow-xl bg-white" src={item.img} />
