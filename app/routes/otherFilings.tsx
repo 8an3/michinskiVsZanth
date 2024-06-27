@@ -70,7 +70,6 @@ export default function NewFile() {
                 <img className="shrink-0 w-[600px] h-[750px] object-cover rounded-lg shadow-xl bg-white" src={item.img} />
               </div>
             ))}
-
           </div>
         </div>
       </CardContent>
