@@ -13,6 +13,8 @@ import forth from '~/courtcase/application/Capture4.jpg'
 import fith from '~/courtcase/application/Capture65.jpg'
 import sixth from '~/courtcase/application/Capture 6.jpg'
 
+
+
 import {
   Card,
   CardContent,
@@ -23,7 +25,7 @@ import {
 } from "~/components/ui/card"
 
 export async function clientLoader() {
-  return { ok: true };
+  return null;
 }
 export async function clientAction({ request }: ClientActionFunctionArgs) {
 
