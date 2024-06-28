@@ -53,7 +53,7 @@ export default function NewFile() {
     }
   ]
   return (
-    <Card className='max-h-[800px] h-[800px] overflow-y-scroll'>
+    <Card className='max-h-[900px] h-[900px] w-[95%] overflow-y-scroll mx-auto'>
       <CardHeader>
         <CardTitle>General Application</CardTitle>
         <CardDescription>Natashia trying to serve me with the following documents</CardDescription>
@@ -67,7 +67,7 @@ export default function NewFile() {
           <div className="relative w-full flex gap-6 snap-x overflow-x-auto pb-14">
             {imageList.map((item) => (
               <div className="snap-center shrink-0 first:pl-8 last:pr-8">
-                <img className="shrink-0 w-[600px] h-[750px] object-cover rounded-lg shadow-xl bg-white" src={item.img} />
+                <img className="shrink-0 w-[600px] h-[800px] object-cover rounded-lg shadow-xl bg-white" src={item.img} />
               </div>
             ))}
 

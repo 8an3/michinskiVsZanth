@@ -21,76 +21,7 @@ export default function Index() {
 
   return (
     <div className="font-sans p-4">
-      <div className="mr-4 hidden md:flex">
-        <Link to="/" className="mr-6 flex items-center space-x-2">
-          <span className="hidden font-bold sm:inline-block">
-            Michinski Vs. Zanth
-          </span>
-        </Link>
-        <nav className="flex items-center gap-4 text-sm lg:gap-6">
-          <Link
-            to="/application"
-            className={cn(
-              "transition-colors hover:text-foreground/80",
-              pathname === "/application" ? "text-foreground" : "text-foreground/60"
-            )}
-          >
-            Application
-          </Link>
-          <Link
-            to="/answer"
-            className={cn(
-              "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("answer")
-                ? "text-foreground"
-                : "text-foreground/60"
-            )}
-          >
-            Answer
-          </Link>
-          <Link
-            to="/reply"
-            className={cn(
-              "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("reply")
-                ? "text-foreground"
-                : "text-foreground/60"
-            )}
-          >
-            Reply
-          </Link>
-          <Link
-            to="/noticeOfMotion"
-            className={cn(
-              "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("noticeOfMotion")
-                ? "text-foreground"
-                : "text-foreground/60"
-            )}
-          >
-            Notice of Motion
-          </Link>
-          <Link
-            to="/exhibits"
-            className={cn(
-              "transition-colors hover:text-foreground/80",
-              pathname?.startsWith("exhibitsp")
-                ? "text-foreground"
-                : "text-foreground/60"
-            )}
-          >
-            Exhibits
-          </Link>
-          <Link
-            to="/exhibits"
-            className={cn(
-              "hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
-            )}
-          >
-            GitHub
-          </Link>
-        </nav>
-      </div>
+
       <div className="">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
@@ -98,18 +29,21 @@ export default function Index() {
               Michinski VS Zanth
             </h1>
             <p className="mt-6 text-lg leading-8 text-foreground">
-              Natashia Michinski represented by Anne Vespry - Skyler Zanth, self representing
+              Natashia Michinski aka Natashia Lynn Michinski represented by Anne Vespry
+            </p>
+            <p className="mt-6 text-lg leading-8 text-foreground">
+              Skyler Zanth, self representing
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <link
-                href="#"
+              <Link
+                to="/application"
                 className="rounded-md bg-background px-3.5 py-2.5 text-sm font-semibold text-foreground shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  "
               >
-                General application of separation.
-              </link>
-              <a href="#" className="text-sm font-semibold leading-6 text-foreground">
+                General application of separation w/ property claims.
+              </Link>
+              <Link to="#" className="text-sm font-semibold leading-6 text-foreground">
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
