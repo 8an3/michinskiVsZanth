@@ -9,7 +9,41 @@ import {
 } from "~/components/ui/card"
 
 export default function Todo() {
-
+  const courtFiling = 175
+  const notary = 50 * 4
+  const refinanceLeftOver = 15000
+  const rbcChecking = 3435
+  const rbcLoc = 7937
+  const scotiaVisa = 2573
+  const car = 14032
+  const other = 167 + 259
+  const windows = 21000
+  const scotiaLoc = 42000
+  const scotiaCheck = 1300
+  const wages = 1807 * 12
+  const findJob = 1807 * 8
+  const replaceItems = 5500
+  const houseSale = (550000 - 443643.85) / 2
+  const missed2022 = 60000
+  const missed2023 = 60000
+  const rent = 600 * 3
+  const total = courtFiling +
+    notary +
+    refinanceLeftOver +
+    rbcChecking +
+    rbcLoc +
+    scotiaVisa +
+    car +
+    other +
+    windows +
+    scotiaLoc +
+    scotiaCheck +
+    wages +
+    findJob +
+    replaceItems +
+    houseSale +
+    missed2022 +
+    missed2023 - rent
   return (
     <div>
       <Card className='max-h-[800px] h-[800px] overflow-y-scroll w-[600px] mx-auto'>
@@ -25,7 +59,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $175
+                  ${courtFiling}
                 </p>
               </span>
             </li>
@@ -35,7 +69,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $200
+                  ${notary}
                 </p>
               </span>
             </li>
@@ -47,7 +81,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $15,000
+                  ${refinanceLeftOver}
                 </p>
               </span>
             </li>
@@ -59,7 +93,17 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $3500
+                  ${rbcChecking}
+                </p>
+              </span>
+            </li>
+            <li className="flex items-center justify-between">
+              <span className="text-[#8a8a93]">
+                rbc Loc
+              </span>
+              <span>
+                <p className='text-right'>
+                  ${rbcLoc}
                 </p>
               </span>
             </li>
@@ -69,7 +113,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $15,000
+                  ${car}
                 </p>
               </span>
             </li>
@@ -79,7 +123,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $20,000
+                  ${windows}
                 </p>
               </span>
             </li>
@@ -89,7 +133,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $42,000
+                  ${scotiaLoc}
                 </p>
               </span>
             </li>
@@ -99,7 +143,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $1300
+                  ${scotiaCheck}
                 </p>
               </span>
             </li>
@@ -109,22 +153,21 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $3200
+                  ${scotiaVisa}
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">    restitution of wages, based of 94k a year which comes up to 1807 a week at this time she owes </div>
-            <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
-                during separation
+                other
               </span>
               <span>
                 <p className='text-right'>
-                  $19,884
+                  ${other}
                 </p>
               </span>
             </li>
+
             <div className="font-semibold mt-5">  purposly making my accounts go into arrears</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <li className="flex items-center justify-between">
@@ -155,7 +198,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $5500
+                  ${replaceItems}
                 </p>
               </span>
             </li>
@@ -179,7 +222,29 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $50,000
+                  ${houseSale}
+                </p>
+              </span>
+            </li>
+            <div className="font-semibold mt-5">    restitution of wages, based of 94k a year which comes up to 1807 a week at this time she owes + 8 weeks to find a new job to replace the old one the last 2 times it took 3 months to find a job, and im only going to 8 weeks instead</div>
+            <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <li className="flex items-center justify-between">
+              <span className="text-[#8a8a93]">
+                during separation
+              </span>
+              <span>
+                <p className='text-right'>
+                  ${wages}
+                </p>
+              </span>
+            </li>
+            <li className="flex items-center justify-between">
+              <span className="text-[#8a8a93]">
+                while finding new job once separation has finnally concluded
+              </span>
+              <span>
+                <p className='text-right'>
+                  ${findJob}
                 </p>
               </span>
             </li>
@@ -191,7 +256,7 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $60,000 need to confirm
+                  ${missed2022}
                 </p>
               </span>
             </li>
@@ -201,31 +266,11 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $60,000 need to confirm
+                  ${missed2023}
                 </p>
               </span>
             </li>
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                2024
-              </span>
-              <span>
-                <p className='text-right'>
-                  $
-                </p>
-              </span>
-            </li>
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                debts are another
-              </span>
-              <span>
-                <p className='text-right'>
-                  $36,100
-                </p>
-              </span>
-            </li>
-            <div className="font-semibold mt-5">as of now without the debt and without the proceeds from the sale of the home, we are at</div>
+            <div className="font-semibold mt-5">Anne you said we share the space which enables natashia to come and go as she pleases, fine we'll split the mortgage, so 600 a month</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
@@ -233,40 +278,25 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
-                  $159,959.615
+                  -${rent}
                 </p>
               </span>
             </li>
+
+            <div className="font-semibold mt-5">total</div>
+            <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
-                debts are another
+                to date
               </span>
               <span>
                 <p className='text-right'>
-                  $36,100
+                  ${total}
                 </p>
               </span>
             </li>
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                house sale
-              </span>
-              <span>
-                <p className='text-right'>
-                  $50,000
-                </p>
-              </span>
-            </li>
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                Total - house, her half of the debts and everything else.
-              </span>
-              <span>
-                <p className='text-right'>
-                  $246,059
-                </p>
-              </span>
-            </li>
+
+
             <hr className="my-4 text-muted-foreground w-[95%] mx-auto" />
 
             <li className="flex items-center justify-between">
@@ -290,6 +320,26 @@ export default function Todo() {
           </p>
           <p>
             - 29 june next report to court
+          </p>
+          <div className="font-semibold mt-5">ORDERS REQUESTED IN MOTIONS</div>
+          <hr className="my-4 text-muted-foreground w-[95%] mx-auto" />
+          <p>
+            REJECTED NEED TO REAPPLY - Request of information loan provider
+          </p>
+          <p>
+            REJECTED NEED TO REAPPLY - Strike of pleading restraining order
+          </p>
+          <p>
+            REJECTED NEED TO REAPPLY - Strike of pleading order of removal from premises
+          </p>
+          <p>
+            REJECTED NEED TO REAPPLY - order to bring loan out of arrears
+          </p>
+          <p>
+            REJECTED NEED TO REAPPLY - request of information pertaining to her support of claims
+          </p>
+          <p>
+            REJECTED NEED TO REAPPLY - temp order for applicant to provide notice before entering domicile
           </p>
           <p>
             DONE AND SUBMITTED-- MEET WITH NOTARY THEN FILE -- file a motion on Monday to get Natashia to pay the arrears - need to inquire about car finance loan natashia still hasnt given the information maybe theres a special motion for that
@@ -324,6 +374,11 @@ export default function Todo() {
             I was supposed that she set forth when she talked to the finance company. If you can’t prove it then,
             I will bring this information to the court.
           </p>
+
+          <p>
+            IN NEW MOTION - Order of action: I would ask the court to order Natashia to get all documents that she has submitted thus far to be sworn with a notary instead of just her lawyer, due to the amount of false statements made and continue this for any document she submits moving forward. I feel that because Natashia has obtained a lawyer she feels that she can get away with committing acts of perjury she wouldn’t otherwise try to commit. This would bring to light the truth of the matter without having to dig too deep into the evidence and waste everyone's time. This is not to much to ask because I’ve had to do this for everything I have submitted, if she does comply and submits the same paperwork, I have evidence to almost everything this she has stated to be false.
+          </p>
+
           <p>
             IN PROGRESS - request evidence --   follow up with jean as he will also have stuff for u
           </p>
