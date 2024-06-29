@@ -103,6 +103,10 @@ export default function NewFile() {
       title: 'page 5 of the mortgage commitment, that is not live ink or even a programs signature that is just a copy and paste of that persons signature how is that valid?'
     },
     {
+      main: 'sharing the house',
+      title: 'anne states that natashia and i are sharing the house so that it enables natashia to continue to come and go as she please, but in the court documents they state something different like wtf'
+    },
+    {
       main: 'temp order to have natashia give notice',
       title: 'june 28 at 9:27 am natashia shows up unnanounced with a contractor, contracter walks into home first without natashia telling me shes there, i thought it was an intruder or a home invader and immediatly got defensive, i asked and who are you? he stares at me for a min and responds with im the insurance guy. natashia is no where to be seen, i dont hear her, nothing, i then asked him, "and..." and he jsut stared at me realizing what was about to happen because the look on his face dropped. and just as im about to jump on him finnaly natashia comes around the corner. this event should not have taken place especially the way it unfolded. this event, shows how little she cares about anyone but herself, especially the safety of others. if we did not separate and were still together i would not have asked who he was and just removed him from the property. her lack of respect, not only of mine, but anyones is shocking to me esepecially at the level that was shown this morning. ADDING: we live out in the country, where there are more  homes with guns then without, its 45 mins past this event and my heart is still pounding from adrenaline'
     },

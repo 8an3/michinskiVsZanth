@@ -87,12 +87,34 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 to="/exhibits"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("exhibitsp")
+                  pathname?.startsWith("exhibits")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
               >
                 Exhibits
+              </Link>
+              <Link
+                to="/offers"
+                className={cn(
+                  "transition-colors hover:text-foreground/80",
+                  pathname?.startsWith("exhibits")
+                    ? "text-foreground"
+                    : "text-foreground/60"
+                )}
+              >
+                Exhibits
+              </Link>
+              <Link
+                to="/questionsForCounsel"
+                className={cn(
+                  "transition-colors hover:text-foreground/80",
+                  pathname?.startsWith("questionsForCounsel")
+                    ? "text-foreground"
+                    : "text-foreground/60"
+                )}
+              >
+                Questions for Duty Counsel
               </Link>
               <Link
                 to="/todo"
