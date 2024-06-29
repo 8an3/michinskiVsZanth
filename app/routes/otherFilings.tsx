@@ -7,11 +7,10 @@ import {
 } from "@remix-run/react";
 import { useEffect, useRef } from "react";
 
-import one from '~/components/courtcase/reply/one.jpg'
-import two from '~/components/courtcase/reply/two.jpg'
-import three from '~/components/courtcase/reply/three.jpg'
-import four from '~/components/courtcase/reply/four.jpg'
-import five from '~/components/courtcase/reply/four.jpg'
+import one from '~/components/courtcase/other/1.jpg'
+import two from '~/components/courtcase/other/2.jpg'
+import three from '~/components/courtcase/other/3.jpg'
+import four from '~/components/courtcase/other/4.jpg'
 
 
 
@@ -39,15 +38,12 @@ export default function NewFile() {
     { img: two },
     { img: three },
     { img: four },
-    { img: five },
-
-
   ]
   return (
     <Card className='max-h-[900px] h-[900px] w-[95%] overflow-y-scroll mx-auto'>
       <CardHeader>
-        <CardTitle>Reply</CardTitle>
-        <CardDescription>.... pffft</CardDescription>
+        <CardTitle>Other filings</CardTitle>
+        <CardDescription> </CardDescription>
       </CardHeader>
       <CardContent className="space-y-2">
         <div className="relative rounded-xl overflow-auto">

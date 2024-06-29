@@ -7,15 +7,20 @@ import {
 } from "@remix-run/react";
 import { useEffect, useRef } from "react";
 
-import one from '~/components/courtcase/reply/one.jpg'
-import two from '~/components/courtcase/reply/two.jpg'
-import three from '~/components/courtcase/reply/three.jpg'
-import four from '~/components/courtcase/reply/four.jpg'
-import five from '~/components/courtcase/reply/four.jpg'
-
-
-
-
+import one from '~/components/courtcase/motion/1.jpg'
+import two from '~/components/courtcase/motion/2.jpg'
+import three from '~/components/courtcase/motion/3.jpg'
+import four from '~/components/courtcase/motion/4.jpg'
+import five from '~/components/courtcase/motion/5.jpg'
+import six from '~/components/courtcase/motion/6.jpg'
+import seven from '~/components/courtcase/motion/7.jpg'
+import eight from '~/components/courtcase/motion/8.jpg'
+import nine from '~/components/courtcase/motion/9.jpg'
+import ten from '~/components/courtcase/motion/10.jpg'
+import eleven from '~/components/courtcase/motion/11.jpg'
+import twelve from '~/components/courtcase/motion/12.jpg'
+import thirteen from '~/components/courtcase/motion/13.jpg'
+import fourteen from '~/components/courtcase/motion/14.jpg'
 
 import {
   Card,
@@ -39,15 +44,24 @@ export default function NewFile() {
     { img: two },
     { img: three },
     { img: four },
+    { img: six },
+    { img: seven },
+    { img: eight },
+    { img: nine },
     { img: five },
+    { img: ten },
+    { img: twelve },
+    { img: eleven },
+    { img: thirteen },
+    { img: fourteen },
 
 
   ]
   return (
     <Card className='max-h-[900px] h-[900px] w-[95%] overflow-y-scroll mx-auto'>
       <CardHeader>
-        <CardTitle>Reply</CardTitle>
-        <CardDescription>.... pffft</CardDescription>
+        <CardTitle>Notice of motion</CardTitle>
+        <CardDescription></CardDescription>
       </CardHeader>
       <CardContent className="space-y-2">
         <div className="relative rounded-xl overflow-auto">

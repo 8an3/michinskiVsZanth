@@ -62,6 +62,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Reply
               </Link>
               <Link
+                to="/replyToReplyToAnswer"
+                className={cn(
+                  "transition-colors hover:text-foreground/80",
+                  pathname?.startsWith("reply")
+                    ? "text-foreground"
+                    : "text-foreground/60"
+                )}
+              >
+                Notes on Reply
+              </Link>
+              <Link
                 to="/noticeOfMotion"
                 className={cn(
                   "transition-colors hover:text-foreground/80",

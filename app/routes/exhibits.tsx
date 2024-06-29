@@ -46,8 +46,8 @@ export default function NewFile() {
   return (
     <Card className='max-h-[900px] h-[900px] w-[95%] overflow-y-scroll mx-auto'>
       <CardHeader>
-        <CardTitle>Reply</CardTitle>
-        <CardDescription>.... pffft</CardDescription>
+        <CardTitle>Exhibits</CardTitle>
+        <CardDescription>Evidence submitted by Skyler</CardDescription>
       </CardHeader>
       <CardContent className="space-y-2">
         <div className="relative rounded-xl overflow-auto">
