@@ -103,6 +103,10 @@ export default function NewFile() {
       title: 'page 5 of the mortgage commitment, that is not live ink or even a programs signature that is just a copy and paste of that persons signature how is that valid?'
     },
     {
+      main: 'If it was just her house',
+      title: 'why are some of the documents that the lawyers drafted only say prepared for skyler with natashias name no where to be seen'
+    },
+    {
       main: 'sharing the house',
       title: 'anne states that natashia and i are sharing the house so that it enables natashia to continue to come and go as she please, but in the court documents they state something different like wtf'
     },

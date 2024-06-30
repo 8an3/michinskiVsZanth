@@ -65,6 +65,50 @@ import refinance218 from '~/components/courtcase/exhibits/refinance218.jpg'
 import refinance219 from '~/components/courtcase/exhibits/refinance219.jpg'
 import refinance220 from '~/components/courtcase/exhibits/refinance220.jpg'
 import refinance221 from '~/components/courtcase/exhibits/refinance221.jpg'
+import ref1 from '~/components/courtcase/exhibits/1ref1.png'
+import ref2 from '~/components/courtcase/exhibits/1ref2.png'
+import ref3 from '~/components/courtcase/exhibits/1ref3.png'
+import ref4 from '~/components/courtcase/exhibits/1ref4.png'
+import ref5 from '~/components/courtcase/exhibits/1ref5.png'
+import ref6 from '~/components/courtcase/exhibits/1ref6.png'
+import ref7 from '~/components/courtcase/exhibits/1ref7.png'
+import ref8 from '~/components/courtcase/exhibits/1ref8.png'
+import ref9 from '~/components/courtcase/exhibits/1ref9.png'
+import ref10 from '~/components/courtcase/exhibits/1ref10.png'
+import ref11 from '~/components/courtcase/exhibits/1ref11.png'
+import ref12 from '~/components/courtcase/exhibits/1ref12.png'
+import ref13 from '~/components/courtcase/exhibits/1ref13.png'
+import ref14 from '~/components/courtcase/exhibits/1ref14.png'
+import ref20191 from '~/components/courtcase/exhibits/20191.png'
+import ref20192 from '~/components/courtcase/exhibits/20192.png'
+import ref20193 from '~/components/courtcase/exhibits/20193.png'
+import ref20194 from '~/components/courtcase/exhibits/20194.png'
+import ref20195 from '~/components/courtcase/exhibits/20195.png'
+import ref20196 from '~/components/courtcase/exhibits/20196.png'
+import ref20197 from '~/components/courtcase/exhibits/20197.png'
+import ref20198 from '~/components/courtcase/exhibits/20198.png'
+import ref20199 from '~/components/courtcase/exhibits/20199.png'
+import ref201910 from '~/components/courtcase/exhibits/201910.png'
+import ref201911 from '~/components/courtcase/exhibits/201911.png'
+import ref201912 from '~/components/courtcase/exhibits/201912.png'
+import ref201913 from '~/components/courtcase/exhibits/201913.png'
+import aug1 from '~/components/courtcase/exhibits/aug1.png'
+import aug2 from '~/components/courtcase/exhibits/aug2.png'
+import aug3 from '~/components/courtcase/exhibits/aug3.png'
+import aug4 from '~/components/courtcase/exhibits/aug4.png'
+import aug5 from '~/components/courtcase/exhibits/aug5.png'
+import cra from '~/components/courtcase/exhibits/cra.png'
+import gas1 from '~/components/courtcase/exhibits/gas1.png'
+import noescape from '~/components/courtcase/exhibits/noescape.png'
+import preparedforskyler from '~/components/courtcase/exhibits/prepared for skyler.png'
+import proof2024 from '~/components/courtcase/exhibits/proof2024.png'
+import proveTruth from '~/components/courtcase/exhibits/proveTruth.png'
+import proveTruth2 from '~/components/courtcase/exhibits/proveTruth2.png'
+import trespass from '~/components/courtcase/exhibits/trespass.png'
+
+
+
+
 import { cn } from "~/components/utils";
 import { Button, buttonVariants } from "~/components/ui/button";
 
@@ -130,7 +174,11 @@ export default function NewFile() {
       break;
     case 'August Text Messages':
       imageList = [
-        { img: three },
+        { img: aug1 },
+        { img: aug2 },
+        { img: aug3 },
+        { img: aug4 },
+        { img: aug5 },
       ]
       break;
     case 'Livingroom':
@@ -148,10 +196,8 @@ export default function NewFile() {
         { img: cantTakeOutMoney },
         { img: haveToPayBack },
         { img: proofofgas },
-        {
-          img: proofofgas2
-
-        },
+        { img: proofofgas2 },
+        { img: gas1 },
       ]
       break;
     case '2nd Refinance contract':
@@ -179,106 +225,178 @@ export default function NewFile() {
         { img: refinance221 },
       ]
       break;
+    case '2021 mortgage commitment':
+      imageList = [
+        { img: ref1 },
+        { img: ref2 },
+        { img: ref3 },
+        { img: ref4 },
+        { img: ref5 },
+        { img: ref6 },
+        { img: ref7 },
+        { img: ref8 },
+        { img: ref9 },
+        { img: ref10 },
+        { img: ref11 },
+        { img: ref12 },
+        { img: ref13 },
+        { img: ref14 },
+        { img: ref15 },
+      ]
+      break;
+    case '2019 mortgage commitment':
+      imageList = [
+        { img: ref20191 },
+        { img: ref20192 },
+        { img: ref20193 },
+        { img: ref20194 },
+        { img: ref20195 },
+        { img: ref20196 },
+        { img: ref20197 },
+        { img: ref20198 },
+        { img: ref20199 },
+        { img: ref201910 },
+        { img: ref201911 },
+        { img: ref201912 },
+        { img: ref201913 },
+      ]
+      break;
+    case 'Other text messages':
+      imageList = [
+        { img: cantTakeOutMoney },
+
+      ]
+      break;
+    case 'Cra screen shot':
+      imageList = [
+        { img: cra },
+      ]
+      break;
+    case 'Natashia does not fear me':
+      imageList = [
+        { img: noescape },
+      ]
+      break;
+    case 'Prepared for Skyler':
+      imageList = [
+        { img: preparedforskyler },
+      ]
+      break;
+    case 'Proof breakup happened 2024':
+      imageList = [
+        { img: proof2024 },
+      ]
+      break;
+    case 'Have to provide proof of truth':
+      imageList = [
+        { img: proveTruth },
+        { img: proveTruth2 },
+      ]
+      break;
+    case 'Notice of no trespass':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Largest and only home improv in skylers name':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Bills in skylers name':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Con and other pre purchase':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Various Articles':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Initial purchase':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'I controlled finances before':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Window loan authorization':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Applicant uncooperative with window loan':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Transfer file to Natashia':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Removed prematurely':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+    case 'Other text messages':
+      imageList = [
+        { img: trespass },
+      ]
+      break;
+
+
     default:
       imageList = [
 
       ]
   }
 
+
   const navItems = [
-    {
-      title: "First cheque on home",
-    },
-    {
-      title: "Emails",
-    },
-    {
-      title: "Refinance between natashia and company",
-    },
-    {
-      title: "2022 email to refinance",
-    },
-    {
-      title: "Proof of disability",
-    },
-    {
-      title: "Current credit score",
-    },
-    {
-      title: "Text Messages",
-    },
-    {
-      title: "August Text Messages",
-    },
-    {
-      title: "Livingroom",
-    },
-    {
-      title: "Olivers contract",
-    },
-    {
-      title: "Have to provide proof of gas purchase",
-    },
-    {
-      title: "2nd Refinance contract",
-    },
-    {
-      title: "Invoice in skylers name",
-    },
-    {
-      title: "Largest and only home improv in skylers name",
-    },
-    {
-      title: "Bills in skylers name",
-    },
-    {
-      title: "Con and other pre purchase",
-    },
-    {
-      title: "Various Articles",
-    },
-    {
-      title: "Initial purchase",
-    },
-    {
-      title: "Insurance by Natashia",
-    },
-    {
-      title: "Proof of breakup 2024",
-    },
-    {
-      title: "Cra screen shot",
-    },
-    {
-      title: "2021 mortgage commitment",
-    },
-    {
-      title: "2019 mortgage commitment",
-    },
-    {
-      title: "Notice of no trespass",
-    },
-    {
-      title: "Natashia does not fear me",
-    },
-    {
-      title: "I controlled finances before",
-    },
-    {
-      title: "Have to provide proof of truth",
-    },
-    {
-      title: "Window loan authorization",
-    },
-    {
-      title: "Applicant uncooperative with window loan",
-    },
-    {
-      title: "Transfer file to Natashia",
-    },
-    {
-      title: "Removed prematurely",
-    },
+    { title: "First cheque on home", },
+    { title: "Emails", },
+    { title: "Refinance between natashia and company", },
+    { title: "2022 email to refinance", },
+    { title: "Proof of disability", },
+    { title: "Current credit score", },
+    { title: "Text Messages", },
+    { title: "August Text Messages", },
+    { title: "Livingroom", },
+    { title: "Olivers contract", },
+    { title: "Have to provide proof of gas purchase", },
+    { title: "2nd Refinance contract", },
+    { title: "Invoice in skylers name", },
+    { title: "Largest and only home improv in skylers name", },
+    { title: "Bills in skylers name", },
+    { title: "Con and other pre purchase", },
+    { title: "Various Articles", },
+    { title: "Initial purchase", },
+    { title: "Insurance by Natashia", },
+    { title: "Proof of breakup 2024", },
+    { title: "Cra screen shot", },
+    { title: "2021 mortgage commitment", },
+    { title: "2019 mortgage commitment", },
+    { title: "Notice of no trespass", },
+    { title: "Natashia does not fear me", },
+    { title: "I controlled finances before", },
+    { title: "Have to provide proof of truth", },
+    { title: "Window loan authorization", },
+    { title: "Applicant uncooperative with window loan", },
+    { title: "Transfer file to Natashia", },
+    { title: "Removed prematurely", },
+    { title: "Other text messages", },
+    { title: "Prepared for Skyler", },
+    { title: "Proof breakup happened 2024", },
 
 
   ]

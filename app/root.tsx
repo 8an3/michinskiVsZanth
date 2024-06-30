@@ -83,17 +83,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               >
                 Notice of Motion
               </Link>
-              <Link
-                to="/exhibits"
-                className={cn(
-                  "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("exhibits")
-                    ? "text-foreground"
-                    : "text-foreground/60"
-                )}
-              >
-                Exhibits
-              </Link>
+
               <Link
                 to="/offers"
                 className={cn(
