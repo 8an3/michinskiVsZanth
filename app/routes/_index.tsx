@@ -41,9 +41,7 @@ export default function Index() {
               >
                 General application of separation w/ property claims.
               </Link>
-              <Link to="#" className="text-sm font-semibold leading-6 text-foreground">
-                Learn more <span aria-hidden="true">→</span>
-              </Link>
+
             </div>
           </div>
         </div>
