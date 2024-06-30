@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from "react";
 import {
   Card,
   CardContent,
@@ -8,7 +9,22 @@ import {
   CardTitle,
 } from "~/components/ui/card"
 
+const calculateWeeksSince = (startDate) => {
+  const currentDate = new Date();
+  const timeDifference = currentDate - startDate;
+  const millisecondsPerWeek = 1000 * 60 * 60 * 24 * 7;
+  return Math.floor(timeDifference / millisecondsPerWeek);
+};
+
 export default function Todo() {
+  const [weeksSince, setWeeksSince] = useState(0);
+
+  useEffect(() => {
+    const startDate = new Date('2024-04-06');
+    const weeks = calculateWeeksSince(startDate);
+    setWeeksSince(weeks);
+  }, []);
+
   const courtFiling = 175
   const notary = 50 * 4
   const refinanceLeftOver = 15000
@@ -20,13 +36,14 @@ export default function Todo() {
   const windows = 21000
   const scotiaLoc = 42000
   const scotiaCheck = 1300
-  const wages = 1807 * 12
+
+  const wages = 1807 * weeksSince
   const findJob = 1807 * 8
   const replaceItems = 5500
   const houseSale = (550000 - 443643.85) / 2
   const missed2022 = 60000
   const missed2023 = 60000
-  const rent = 600 * 3
+  const rent = 600 * (weeksSince / 4)
   const total = courtFiling +
     notary +
     refinanceLeftOver +
@@ -319,10 +336,13 @@ export default function Todo() {
             - next court data: july 2nd @ 8:45 am
           </p>
           <p>
-            - 29 june next report to court
+            - 13 july next report to court
           </p>
           <div className="font-semibold mt-5">ORDERS REQUESTED IN MOTIONS</div>
           <hr className="my-4 text-muted-foreground w-[95%] mx-auto" />
+          <p>
+            This can be requested during case conference.
+          </p>
           <p>
             REJECTED NEED TO REAPPLY - Request of information loan provider
           </p>

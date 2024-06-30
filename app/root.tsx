@@ -103,7 +103,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     : "text-foreground/60"
                 )}
               >
-                Exhibits
+                Offers
+              </Link>
+              <Link
+                to="/otherFilings"
+                className={cn(
+                  "transition-colors hover:text-foreground/80",
+                  pathname?.startsWith("exhibits")
+                    ? "text-foreground"
+                    : "text-foreground/60"
+                )}
+              >
+                Private Service
               </Link>
               <Link
                 to="/questionsForCounsel"

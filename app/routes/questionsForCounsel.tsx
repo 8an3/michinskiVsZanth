@@ -46,6 +46,10 @@ export default function NewFile() {
       title: 'labeled as spouse on page 4 of second refinancing docs and other places on thiks contract'
     },
     {
+      main: 'in second offer, they want me to sign',
+      title: 'off on that I did not want legal advice. which is not true like get the fuck out of here, the only reason i cannot afford legal advice is because of natashia i will never sign that because i have been trying to get legal advice every step of this process'
+    },
+    {
       main: 'LAWYERS CERTIFICATE',
       title: 'why isnt annes signature on the lawyer cert on natashia paperwork? what is the significance of the lawyer cert?'
     },

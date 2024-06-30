@@ -33,6 +33,7 @@ import seventeen from '~/components/courtcase/offers/nat10.png'
 import eighteen from '~/components/courtcase/offers/nat11.png'
 import nineteen from '~/components/courtcase/offers/nat12.png'
 import twenty from '~/components/courtcase/offers/nat13.png'
+import sky66 from '~/components/courtcase/offers/sky66.png'
 
 import {
   Card,
@@ -56,6 +57,7 @@ export default function NewFile() {
     { img: two },
     { img: three },
     { img: four },
+    { img: sky66 },
     { img: six },
     { img: seven },
   ]
