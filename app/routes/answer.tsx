@@ -345,7 +345,7 @@ contract.
               <div className="relative w-full flex gap-6 snap-x overflow-x-auto pb-14">
                 {imageList.map((item) => (
                   <div className="snap-center shrink-0 first:pl-8 last:pr-8">
-                    <img className="shrink-0 w-[600px] h-[800px] object-cover rounded-lg shadow-xl bg-white" src={item.img} />
+                    <img className="shrink-0 w-[700px] h-[900px] object-cover rounded-lg shadow-xl bg-white" src={item.img} />
                   </div>
                 ))}
               </div>
