@@ -10,6 +10,7 @@ import {
 import "./tailwind.css";
 import { cn } from "~/components/utils"
 import { Badge } from "~/components/ui/badge"
+
 export function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation()
   const pathname = location.pathname
@@ -20,6 +21,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+
       </head>
       <body>
         <div className="font-sans p-4">
