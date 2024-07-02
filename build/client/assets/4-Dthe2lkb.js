@@ -1,1 +1,0 @@
-const s="/michinskiVsZanth/assets/1-CdUVOUqB.jpg",t="/michinskiVsZanth/assets/2-CyPYXRbg.jpg",i="/michinskiVsZanth/assets/3-BiiV0bks.jpg",a="/michinskiVsZanth/assets/4-Gruq0vgF.jpg";export{i as a,a as f,s as o,t};
