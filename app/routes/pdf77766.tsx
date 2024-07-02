@@ -84,7 +84,7 @@ export default function NewFile() {
       pdf = '/michinskiVsZanth/assets/supportingevidencetonoticeofmotion.jpg'
       break;
     case 'Latest offer - skyler':
-      pdf = '/michinskiVsZanth/assets/supportingevidencetonoticeofmotion.jpg'
+      pdf = '/michinskiVsZanth/assets/latestOFfer.jpg'
       break;
     case 'Latest offer - natashia':
       pdf = '/michinskiVsZanth/assets/SeparationAgreement-SecondOffertoSettle.pdf'
