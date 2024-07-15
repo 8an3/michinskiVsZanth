@@ -149,7 +149,7 @@ I just never mentioned it again. to end it looks like anne wrote this for her cl
         <TabsTrigger className="rounded-[6px] " value="ques for duty counc">Notes</TabsTrigger>
       </TabsList>
       <TabsContent value="to-do">
-        <iframe className='mx-auto' src='/michinskiVsZanth/assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='/assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf' width="95%" height="1000px" />
 
       </TabsContent>
       <TabsContent value="ques for duty counc">

@@ -54,7 +54,21 @@ export default function NewFile() {
       why are you asking to be served but not have me file with the court? is there something you want to hide?...
 
       if im a "tenant" i shouldnt have to pay the property tax portion of the mortgage payment, the portion of the mortgage that is the house is about 1200...
+
+      Her certificate... she was not here at the house when that was signed because I was here but she says she certified it in berwick, it even states where she signed it which is well over 30-50km away from our house.
       `
+    },
+    {
+      main: 'account number 261',
+      title: 'she put a value of 10k on it at valuation date what does that mean?'
+    },
+    {
+      main: 'certifiate for finances',
+      title: 'Her certificate... she was not here at the house when that was signed because I was here but she says she certified it in berwick, it even states where she signed it which is well over 30-50km away from our house'
+    },
+    {
+      main: 'in her application',
+      title: 'she states she cannot afford renting her next place... but she puts a monthly rent amount in her fiannces chart....'
     },
     {
       main: 'why do i need a affidavit of sdervice ontop of a notarized document',

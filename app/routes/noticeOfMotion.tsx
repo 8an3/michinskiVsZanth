@@ -72,15 +72,15 @@ export default function NewFile() {
         <TabsTrigger className="rounded-[6px] " value="ques for duty counc">Notes</TabsTrigger>
       </TabsList>
       <TabsContent value="to-do">
-        <iframe className='mx-auto' src='/michinskiVsZanth/assets/PDFsam_merge.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='/assets/PDFsam_merge.pdf' width="95%" height="1000px" />
 
       </TabsContent>
       <TabsContent value="to-doevidence">
-        <iframe className='mx-auto' src='/michinskiVsZanth/assets/supportingevidencetonoticeofmotion.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='/assets/supportingevidencetonoticeofmotion.pdf' width="95%" height="1000px" />
 
       </TabsContent>
       <TabsContent value="notice2">
-        <iframe className='mx-auto' src='/michinskiVsZanth/assets/noticeofmotion2.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='/assets/noticeofmotion2.pdf' width="95%" height="1000px" />
 
       </TabsContent>
       <TabsContent value="ques for duty counc">

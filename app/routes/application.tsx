@@ -53,7 +53,7 @@ export default function NewFile() {
     }
   ]
   return (
-    <iframe className='mx-auto' src='/michinskiVsZanth/assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf' width="95%" height="1000px" />
+    <iframe className='mx-auto' src='/assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf' width="95%" height="1000px" />
 
 
   )
