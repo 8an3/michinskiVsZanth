@@ -26,14 +26,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <div className="font-sans p-4">
           <div className="mr-4 hidden md:flex">
-            <Link to="/michinskiVsZanth/" className="mr-6 flex items-center space-x-2">
+            <Link to="/" className="mr-6 flex items-center space-x-2">
               <span className="hidden font-bold sm:inline-block">
                 Michinski Vs. Zanth
               </span>
             </Link>
             <nav className="flex items-center gap-4 text-sm lg:gap-6">
               <Link
-                to="/michinskiVsZanth/application"
+                to="/application"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname === "/application" ? "text-foreground" : "text-foreground/60"
@@ -42,10 +42,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Application
               </Link>
               <Link
-                to="/michinskiVsZanth/answer"
+                to="/answer"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("/michinskiVsZanth/answer")
+                  pathname?.startsWith("/answer")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -53,10 +53,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Answer
               </Link>
               <Link
-                to="/michinskiVsZanth/reply"
+                to="/reply"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("/michinskiVsZanth/reply")
+                  pathname?.startsWith("/reply")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -64,7 +64,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Reply
               </Link>
               <Link
-                to="/michinskiVsZanth/replyToReplyToAnswer"
+                to="/replyToReplyToAnswer"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname?.startsWith("reply")
@@ -75,7 +75,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Notes on Reply
               </Link>
               <Link
-                to="/michinskiVsZanth/noticeOfMotion"
+                to="/noticeOfMotion"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname?.startsWith("noticeOfMotion")
@@ -87,7 +87,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </Link>
 
               <Link
-                to="/michinskiVsZanth/offers"
+                to="/offers"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname?.startsWith("exhibits")
@@ -98,7 +98,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Offers
               </Link>
               <Link
-                to="/michinskiVsZanth/otherFilings"
+                to="/otherFilings"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname?.startsWith("exhibits")
@@ -109,7 +109,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Private Service
               </Link>
               <Link
-                to="/michinskiVsZanth/questionsForCounsel"
+                to="/questionsForCounsel"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname?.startsWith("questionsForCounsel")
@@ -120,7 +120,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Questions for Duty Counsel
               </Link>
               <Link
-                to="/michinskiVsZanth/todo"
+                to="/todo"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
                   pathname?.startsWith("exhibitsp")
@@ -131,7 +131,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 To-do and Notes
               </Link>
               <Link
-                to="/michinskiVsZanth/other"
+                to="/other"
                 className={cn(
                   "hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
                 )}

@@ -42,6 +42,25 @@ export default function NewFile() {
       I am currently without representation, not by choice, adding to that Im also mentally disabled, and can barely come up with money to help me due to natashias actions, which further puts me at a disadvantage. The dishonest tactics employed by Natashia and her counsel should not be allowed to influence the outcome of this case. I would like the court to put forth some action or order against natashia, i dont know what because im representing myself, but something needs to be done.`
     },
     {
+      main: 'in response to her case conference breif',
+      title: `she controlled the finances where my cheque deposited into the account she controlled, she should already have all the information shes requesting this makes no sense. this just further proves her need/wants to control me or wanting to knwo exactly what i did when, i had to take money out of the account she controlled to purchase gas, does she want to know exactly where i purcahsed this gas from, not only that but whenever i did take money out she immediatly texted me asking me why i was taking money out and i had to respond or else it was a huge fight even if it was 40$, 20$, 10$ so she already knows when i took out money and why. if the amount was ever over 50$ we always got into a huge fight over it, even if it was for gas which is why i tended to take out smaller amounts for gas so we didnt have as many fights...
+
+      it took her 2 months to move with a moving company and she expects me to move in 2 days with no money, no means to move or store my belongings and no where to live?...
+
+      the threat to her changing the locks was never lifted, and she continously still comes to the house every week to see if im still here, with her actions, along with how she removed all the money from our account at the start of the separation, i dont have the means to pay for car insurance currently how am i supposed to look for a job? i just got access to my bank account again recently because i had to pay for the over draft(since we only ever paid her debts almost 100% of the time) that was removed from my account since she cancelled my phone, i still havent even been able to afford a phone plan but i have been working harder then ever on a project i plan to sell, but i need a cell phone to finish testing before bringing to market...
+
+      she controlled the finances for the last 3 years, ofcourse she is going to say that only she paid for everything in order for her to make herself look better in this matter. with my chque depositing into the account she controlled, what happened to all that money from my bi weekly pay cheques? ofcourse i know i took money out for gas, but this is her diminishing my contributions like she has been doing for the last couple of years. no matter what i did, whether it was chores around the house, or anything else for that matter she always diminished what i contributed to our relationship. i have the records of this account since it was opened but because the bank has such poor record keeping theres virtually no way to tell what money went where...
+
+      why are you asking to be served but not have me file with the court? is there something you want to hide?...
+
+      if im a "tenant" i shouldnt have to pay the property tax portion of the mortgage payment, the portion of the mortgage that is the house is about 1200...
+      `
+    },
+    {
+      main: 'why do i need a affidavit of sdervice ontop of a notarized document',
+      title: 'for example i handed ina 13.1 and the court rejected it because i did not have a 6b attached, but its notarized why do i need a second notarized document to accompany this? especially when the applicant has lied from the begining'
+    },
+    {
       main: 'SPOUSE/COMMON LAW CAN THESE PEOPLE MAKE UP THEIR MINDS?',
       title: 'labeled as spouse on page 4 of second refinancing docs and other places on thiks contract'
     },

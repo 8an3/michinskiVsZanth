@@ -4,7 +4,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
 
-  base: '/michinskiVsZanth/',
   plugins: [
     remix({
       basename: '/michinskiVsZanth/',
