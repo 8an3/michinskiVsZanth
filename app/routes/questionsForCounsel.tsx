@@ -31,7 +31,7 @@ export default function NewFile() {
   const questionsDC = [
     {
       main: 'FAIR COMPETITION DURING CASE???',
-      title: `I find it extremely unfair to compete against a party that consistently disregards the court's rules. I have already provided ample evidence to demonstrate that many of their claims are false. Despite my requests, they fail to provide proof, either verbally or in writing.
+      title: `I find it extremely unfair to compete against a party that consistently disregards the court's rules. I have already provided ample evidence to demonstrate that almost all of her claims are false. Despite my requests, they fail to provide proof, either verbally or in writing.
 
       For instance, regarding the abuse allegations made by Natashia, I asked her on audio to provide an example, and she could not identify a single event. Court proceedings are supposed to be conducted fairly and in good faith. Their entire case is built on a lie, and they are fabricating additional lies to support the initial falsehood.
 
@@ -46,6 +46,10 @@ export default function NewFile() {
       title: 'labeled as spouse on page 4 of second refinancing docs and other places on thiks contract'
     },
     {
+      main: 'was it fair for the judge to ask the competing counsel if it has legs?',
+      title: 'because my mic wasnt working this session he pretty much ignored me and asked the opposing counsel if my case is even valid.... thankfully she saved my case for me but like wtf? how is this behaviour inline with making this a fair case for both parties?'
+    },
+    {
       main: 'in second offer, they want me to sign',
       title: 'off on that I did not want legal advice. which is not true like get the fuck out of here, the only reason i cannot afford legal advice is because of natashia i will never sign that because i have been trying to get legal advice every step of this process'
     },
@@ -55,7 +59,7 @@ export default function NewFile() {
     },
     {
       main: 'COUNSEL COMMITS PERJURY',
-      title: 'what happens when councel commits perjury?'
+      title: 'what happens when councel lies?'
     },
     {
       main: 'FILE TO MOTION',
@@ -75,7 +79,7 @@ export default function NewFile() {
     },
     {
       main: 'OLIVER',
-      title: 'can I file to get my dog back early'
+      title: 'can I file to get my dog back early?'
     },
     {
       main: 'PAPERWORK MISTAKES IN CONTRACTS',
