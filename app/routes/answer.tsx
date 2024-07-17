@@ -332,11 +332,11 @@ contract.
         <TabsTrigger className="rounded-[6px] " value="ques for duty counc">Notes</TabsTrigger>
       </TabsList>
       <TabsContent value="to-do">
-        <iframe className='mx-auto' src='/michinskiVsZanth/assets/Form10Answer-Respondent-JustinSkylerZanth03-JUN-2024.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='assets/Form10Answer-Respondent-JustinSkylerZanth03-JUN-2024.pdf' width="95%" height="1000px" />
 
       </TabsContent>
       <TabsContent value="part2">
-        <iframe className='mx-auto' src='/michinskiVsZanth/assets/form10answerpart2.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='assets/form10answerpart2.pdf' width="95%" height="1000px" />
 
       </TabsContent>
       <TabsContent value="ques for duty counc">
