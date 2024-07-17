@@ -15,8 +15,8 @@ import {
   CardHeader,
   CardTitle,
 } from "~/components/ui/card"
-import one from '~/components/courtcase/exhibits/2022 email to refianance 2.jpg'
-import two from '~/components/courtcase/exhibits/2022 email to refianance.jpg'
+import one from '~/components/courtcase/exhibits/2022emailtorefianance2.jpg'
+import two from '~/components/courtcase/exhibits/2022emailtorefianance.jpg'
 import three from '~/components/courtcase/exhibits/first cheque on home.jpg'
 import four from '~/components/courtcase/exhibits/june 21 8 am.jpg'
 import oneanswer from '~/components/courtcase/exhibits/june 21 920 am.jpg'
