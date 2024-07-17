@@ -348,13 +348,6 @@ export default function NewFile() {
         { img: trespass },
       ]
       break;
-    case 'Other text messages':
-      imageList = [
-        { img: trespass },
-      ]
-      break;
-
-
     default:
       imageList = [
 
