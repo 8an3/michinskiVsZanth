@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-BWtM72Fx.js";async function n(){return{ok:!0}}async function r({request:e}){return{ok:!0}}function s(){return t.jsx("iframe",{className:"mx-auto",src:"/michinskiVsZanthassets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf",width:"95%",height:"1000px"})}export{r as clientAction,n as clientLoader,s as default};

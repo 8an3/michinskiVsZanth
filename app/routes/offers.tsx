@@ -84,10 +84,10 @@ export default function NewFile() {
         <TabsTrigger className="rounded-[6px] " value="ques for duty counc">Natashia</TabsTrigger>
       </TabsList>
       <TabsContent value="to-do">
-        <iframe className='mx-auto' src='/assets/latestOFfer.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='assets/latestOFfer.pdf' width="95%" height="1000px" />
       </TabsContent>
       <TabsContent value="ques for duty counc">
-        <iframe className='mx-auto' src='/assets/SeparationAgreement-SecondOffertoSettle.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='assets/SeparationAgreement-SecondOffertoSettle.pdf' width="95%" height="1000px" />
       </TabsContent>
     </Tabs>
   )

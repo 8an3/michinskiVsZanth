@@ -24,184 +24,184 @@ export default function NewFile() {
   let pdf = ''
   switch (pictures) {
     case 'Form 10 Answer':
-      pdf = '/assets/Form10Answer-Respondent-JustinSkylerZanth03-JUN-2024.pdf'
+      pdf = 'assets/Form10Answer-Respondent-JustinSkylerZanth03-JUN-2024.pdf'
       break;
     case 'Form 10 answer part 2':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Refinance talks between natashia and company':
-      pdf = '/assets/Gmail-Re_MICHINSKI23-1003308.pdf'
+      pdf = 'assets/Gmail-Re_MICHINSKI23-1003308.pdf'
       break;
     case '2022 email to refinance':
-      pdf = '/assets/Gmail-Fwd_1180876NatashiaMichinskiJustinZanth.pdf'
+      pdf = 'assets/Gmail-Fwd_1180876NatashiaMichinskiJustinZanth.pdf'
       break;
     case 'Proof of disability':
-      pdf = '/assets/Screenshot_20240531-051421.png'
+      pdf = 'assets/Screenshot_20240531-051421.png'
       break;
     case 'Proof of disability - 2':
-      pdf = '/assets/disability.pdf'
+      pdf = 'assets/disability.pdf'
       break;
     case 'Current credit score':
-      pdf = '/assets/Zanth2.jpg'
+      pdf = 'assets/Zanth2.jpg'
       break;
     case 'August Text Messages':
-      pdf = '/assets/Screenshot_20240531-125655.png'
+      pdf = 'assets/Screenshot_20240531-125655.png'
       break;
     case 'August Text Messages - 2':
-      pdf = '/assets/Screenshot_20240531-125717.png'
+      pdf = 'assets/Screenshot_20240531-125717.png'
       break;
     case 'August Text Messages - 3':
-      pdf = '/assets/Screenshot_20240531-125746.png'
+      pdf = 'assets/Screenshot_20240531-125746.png'
       break;
     case 'August Text Messages - 4':
-      pdf = '/assets/Screenshot_20240531-125804.png'
+      pdf = 'assets/Screenshot_20240531-125804.png'
       break;
     case 'August Text Messages - 5':
-      pdf = '/assets/Screenshot_20240531-125814.png'
+      pdf = 'assets/Screenshot_20240531-125814.png'
       break;
     case 'August Text Messages - 6':
-      pdf = '/assets/Screenshot_20240531-125820.png'
+      pdf = 'assets/Screenshot_20240531-125820.png'
       break;
     case 'August Text Messages - 7':
-      pdf = '/assets/Screenshot_20240531-125832.png'
+      pdf = 'assets/Screenshot_20240531-125832.png'
       break;
     case 'August Text Messages - 8':
-      pdf = '/assets/Screenshot_20240531-125841.png'
+      pdf = 'assets/Screenshot_20240531-125841.png'
       break;
     case 'Livingroom':
-      pdf = '/assets/PXL_20240531_114754028.jpg'
+      pdf = 'assets/PXL_20240531_114754028.jpg'
       break;
     case 'Where is her car?':
-      pdf = '/assets/whereishercar.jpg'
+      pdf = 'assets/whereishercar.jpg'
       break;
     case 'Reply with notes regarding lies':
-      pdf = '/assets/replywithnotestodisputeallthelies.jpg'
+      pdf = 'assets/replywithnotestodisputeallthelies.jpg'
       break;
     case 'First notice of motion':
-      pdf = '/assets/PDFsam_merge.pdf'
+      pdf = 'assets/PDFsam_merge.pdf'
       break;
     case 'First motion - evidence':
-      pdf = '/assets/supportingevidencetonoticeofmotion.jpg'
+      pdf = 'assets/supportingevidencetonoticeofmotion.jpg'
       break;
     case 'Latest offer - skyler':
-      pdf = '/assets/latestOFfer.jpg'
+      pdf = 'assets/latestOFfer.jpg'
       break;
     case 'Latest offer - natashia':
-      pdf = '/assets/SeparationAgreement-SecondOffertoSettle.pdf'
+      pdf = 'assets/SeparationAgreement-SecondOffertoSettle.pdf'
       break;
     case 'Application':
-      pdf = '/assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf'
+      pdf = 'assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf'
       break;
     case 'Answer':
-      pdf = '/assets/Form10Answer-Respondent-JustinSkylerZanth03-JUN-2024.pdf'
+      pdf = 'assets/Form10Answer-Respondent-JustinSkylerZanth03-JUN-2024.pdf'
       break;
     case 'Case conference - skyler':
-      pdf = '/assets/caseconference.pdf'
+      pdf = 'assets/caseconference.pdf'
       break;
     case 'Have to provide proof of gas purchase':
-      pdf = '/assets/Screenshot_20240531-210644.jpg'
+      pdf = 'assets/Screenshot_20240531-210644.jpg'
       break;
     case 'Refusing to transfer money':
-      pdf = '/assets/Screenshot_20240531-043036.png'
+      pdf = 'assets/Screenshot_20240531-043036.png'
       break;
     case 'Need to provide evidence of purchases':
-      pdf = '/assets/Screenshot_20240531-051421.png'
+      pdf = 'assets/Screenshot_20240531-051421.png'
       break;
     case 'Proof breakup happened 2024':
-      pdf = '/assets/Screenshot_20240531-010928.png'
+      pdf = 'assets/Screenshot_20240531-010928.png'
       break;
     case 'Proof breakup happened 2024 - 2':
-      pdf = '/assets/Screenshot_20240531-012247.png'
+      pdf = 'assets/Screenshot_20240531-012247.png'
       break;
     case 'Cra screen shot':
-      pdf = '/assets/2020.jpg'
+      pdf = 'assets/2020.jpg'
       break;
     case 'Applicant uncooperative with window loan':
-      pdf = '/assets/cannotpayforwindowsapparently.pdf'
+      pdf = 'assets/cannotpayforwindowsapparently.pdf'
       break;
     case 'Olivers contract':
-      pdf = '/assets/IMG_20240419_110407.jpg'
+      pdf = 'assets/IMG_20240419_110407.jpg'
       break;
     case 'First cheque on home':
-      pdf = '/assets/firstcheque.png'
+      pdf = 'assets/firstcheque.png'
       break;
     case 'Emails - natashia':
-      pdf = '/assets/natashiaAndIEmails.pdf'
+      pdf = 'assets/natashiaAndIEmails.pdf'
       break;
     case 'Emails - anne':
-      pdf = '/assets/emailsanne.pdf'
+      pdf = 'assets/emailsanne.pdf'
       break;
     case '2nd Refinance contract':
-      pdf = '/assets/docssigned.pdf'
+      pdf = 'assets/docssigned.pdf'
       break;
     case '2021 mortgage commitment':
-      pdf = '/assets/FirstRefinancingContract.pdf'
+      pdf = 'assets/FirstRefinancingContract.pdf'
       break;
     case '2019 mortgage commitment':
-      pdf = '/assets/2019MortgageCommitment.pdf'
+      pdf = 'assets/2019MortgageCommitment.pdf'
       break;
     case 'Have to provide proof of truth':
-      pdf = '/assets/needtoprovemnotlyingemail.pdf'
+      pdf = 'assets/needtoprovemnotlyingemail.pdf'
       break;
     case 'Have to provide proof of truth - 2':
-      pdf = '/assets/needtoproveimnotlyingemail2.pdf'
+      pdf = 'assets/needtoproveimnotlyingemail2.pdf'
       break;
     case 'Notice of no trespass':
-      pdf = '/assets/noticeofnotrespass.jpg'
+      pdf = 'assets/noticeofnotrespass.jpg'
       break;
     case 'Largest and only home improv in skylers name':
-      pdf = '/assets/biggesthomeimprovementtohome.pdf'
+      pdf = 'assets/biggesthomeimprovementtohome.pdf'
       break;
     case 'Bills in skylers name':
-      pdf = '/assets/billinskylersname.pdf'
+      pdf = 'assets/billinskylersname.pdf'
       break;
     case 'Various Articles':
-      pdf = '/assets/variousarticlessupporting5050spliot.pdf'
+      pdf = 'assets/variousarticlessupporting5050spliot.pdf'
       break;
     case 'Initial purchase':
-      pdf = '/assets/OriginalPurchaseAgreementForAshburnRd.pdf'
+      pdf = 'assets/OriginalPurchaseAgreementForAshburnRd.pdf'
       break;
     case 'Home inspection':
-      pdf = '/assets/homeinspection.pdf'
+      pdf = 'assets/homeinspection.pdf'
       break;
     case 'I should move out':
-      pdf = '/assets/Capture23.jpg'
+      pdf = 'assets/Capture23.jpg'
       break;
     case 'I should move out - 2':
-      pdf = '/assets/Capture233r.jpg'
+      pdf = 'assets/Capture233r.jpg'
       break;
     case 'Reply':
-      pdf = '/assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf'
+      pdf = 'assets/Application(General)Form08-ApplicantMichinski-01-MAY-2024(2).pdf'
       break;
     case 'Various articles supporting 50/50':
-      pdf = '/assets/variousarticlessupporting5050spliot.pdf'
+      pdf = 'assets/variousarticlessupporting5050spliot.pdf'
       break;
     case 'Other text messages':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Natashia does not fear me':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Prepared for Skyler':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'I controlled finances before':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Window loan authorization':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Transfer file to Natashia':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Removed prematurely':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'Con and other pre purchase':
-      pdf = '/assets/form10answerpart2.pdf'
+      pdf = 'assets/form10answerpart2.pdf'
       break;
     case 'notice of motion - 2':
-      pdf = '/assets/noticeofmotion2.docx.pdf'
+      pdf = 'assets/noticeofmotion2.docx.pdf'
       break;
 
 
