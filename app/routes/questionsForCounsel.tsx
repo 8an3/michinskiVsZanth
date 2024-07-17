@@ -67,20 +67,12 @@ export default function NewFile() {
       title: 'Her certificate... she was not here at the house when that was signed because I was here but she says she certified it in berwick, it even states where she signed it which is well over 30-50km away from our house'
     },
     {
-      main: 'in her application',
-      title: 'she states she cannot afford renting her next place... but she puts a monthly rent amount in her fiannces chart....'
-    },
-    {
       main: 'why do i need a affidavit of sdervice ontop of a notarized document',
       title: 'for example i handed ina 13.1 and the court rejected it because i did not have a 6b attached, but its notarized why do i need a second notarized document to accompany this? especially when the applicant has lied from the begining'
     },
     {
       main: 'SPOUSE/COMMON LAW CAN THESE PEOPLE MAKE UP THEIR MINDS?',
       title: 'labeled as spouse on page 4 of second refinancing docs and other places on thiks contract'
-    },
-    {
-      main: 'was it fair for the judge to ask the competing counsel if it has legs?',
-      title: 'because my mic wasnt working this session he pretty much ignored me and asked the opposing counsel if my case is even valid.... thankfully she saved my case for me but like wtf? how is this behaviour inline with making this a fair case for both parties?'
     },
     {
       main: 'in second offer, they want me to sign',

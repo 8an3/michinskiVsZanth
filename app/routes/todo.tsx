@@ -26,7 +26,7 @@ export default function Todo() {
   }, []);
 
   const courtFiling = 175
-  const notary = 50 * 6
+  const notary = 50 * 10
   const refinanceLeftOver = 15000
   const rbcChecking = 3435
   const rbcLoc = 7937
