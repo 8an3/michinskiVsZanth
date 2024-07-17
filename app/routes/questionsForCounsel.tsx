@@ -85,7 +85,7 @@ export default function NewFile() {
 
 
     {
-      main: 'FOLLOWING ARE ANSWERED',
+      main: '----------------FOLLOWING ARE ANSWERED ----------------------',
       title: 'But left here for future reference.'
     },
     {

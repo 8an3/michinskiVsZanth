@@ -5,7 +5,8 @@ import {
   Link,
   Scripts,
   ScrollRestoration,
-  useLocation
+  useLocation,
+  MetaFunction
 } from "@remix-run/react";
 import "./tailwind.css";
 import { cn } from "~/components/utils"
@@ -67,7 +68,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 to="/replyToReplyToAnswer"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("reply")
+                  pathname?.startsWith("replyToReplyToAnswer")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -90,7 +91,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 to="/offers"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("exhibits")
+                  pathname?.startsWith("offers")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -101,7 +102,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 to="/otherFilings"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("exhibits")
+                  pathname?.startsWith("otherFilings")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -112,7 +113,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 to="/caseConferenceBrief"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("exhibits")
+                  pathname?.startsWith("caseConferenceBrief")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -134,7 +135,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 to="/todo"
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname?.startsWith("exhibitsp")
+                  pathname?.startsWith("todo")
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -175,3 +176,9 @@ export default function App() {
 export function HydrateFallback() {
   return <p>Loading...</p>;
 }
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Michinski VS Zanith" },
+    { name: "description", content: "Welcome to Michinski VS Zanith" },
+  ];
+};

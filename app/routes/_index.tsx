@@ -10,8 +10,8 @@ import { Link, useLocation } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix SPA" },
-    { name: "description", content: "Welcome to Remix (SPA Mode)!" },
+    { title: "Michinski VS Zanith" },
+    { name: "description", content: "Welcome to Michinski VS Zanith" },
   ];
 };
 
@@ -26,7 +26,7 @@ export default function Index() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
-              Michinski VS Zanth
+              Michinski VS Zanith
             </h1>
             <p className="mt-6 text-lg leading-8 text-foreground">
               Natashia Michinski aka Natashia Lynn Michinski represented by Anne Vespry
