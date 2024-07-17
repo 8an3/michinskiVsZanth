@@ -43,6 +43,15 @@ export default function Index() {
               </Link>
 
             </div>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <p className="mt-6  leading-8 text-foreground">
+                Next date July 29th at 10AM
+              </p>
+              <p className="mt-6  leading-8 text-foreground">
+                Need to do 14C 2 days before by 2pm the latest
+              </p>
+            </div>
+
           </div>
         </div>
         <div
