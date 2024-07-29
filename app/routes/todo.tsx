@@ -66,10 +66,14 @@ export default function Todo() {
       <Card className='max-h-[800px] h-[800px] overflow-y-scroll w-[600px] mx-auto'>
         <CardContent className="space-y-2">
           <div className="font-semibold mt-5">Need to charge the applicant money due to the constant threats of charging me money, and not accepting offers.</div>
-          <hr className="my-4 text-muted-foreground w-[95%] mx-auto" />
-          <div className="font-semibold mt-5"> rule 18 of the family law rules, no reasonable offer given by applicant. all court fees will be paid by the opposing party, get a lawyer asap as you no longer have to pay for one</div>
+          <div className="font-semibold mt-3 text-muted-foreground "> rule 18 of the family law rules, no reasonable offer given by applicant. all court fees will be paid by the opposing party, get a lawyer asap as you no longer have to pay for one</div>
+          <hr className=" text-muted-foreground w-[95%] mx-auto" />
+          <div className="font-semibold mt-5">Additional notes on oliver</div>
+          <div className="font-semibold mt-3 text-muted-foreground ">bringing up natashias logic/reasoning regarding items taken from home, she states that if she bought it, no matter whos money it was, it belongs to her and she will be taking it from the separation. With that being said, i bought oliver with my own money from my own account, just from natashias reasoning oliver needs to be returned to me. The rings are no where to be found, but with natashias history of theft im assumming she took them. I do not have video evidence of this but they cannot be found as i have tried to look for them on numerous occasions. if they turn up i can return them to her, with saying that i bought them with my own money from my own account before she started to controll the finances with her reasoning i should get them back anyways.</div>
           <hr className=" text-muted-foreground w-[95%] mx-auto" />
           <ul className="grid gap-3">
+
+            <div className="font-semibold mb-3">  I was supposed to get money on refinance, the balance of what natashia did need after the 40k,    have natashia provide evidence anything that you did not get, you get now </div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 Filing for court
@@ -90,8 +94,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">  I was supposed to get money on refinance, the balance of what natashia did need after the 40k,    have natashia provide evidence anything that you did not get, you get now </div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+
+            <div className="font-semibold mb-3"> I paid half her debt less than a year ago,  natashia now needs to step up and do her part for my debt,  DO A CREDIT CHECK TO SEE WHAT ELSE THERE IS </div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 At this time
@@ -102,8 +107,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5"> I paid half her debt less than a year ago,  natashia now needs to step up and do her part for my debt,  DO A CREDIT CHECK TO SEE WHAT ELSE THERE IS </div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">  purposly making my accounts go into arrears</div>
+
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 rbc checking
@@ -185,8 +191,9 @@ export default function Todo() {
               </span>
             </li>
 
-            <div className="font-semibold mt-5">  purposly making my accounts go into arrears</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">items taken from home</div>
+
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 windows
@@ -207,8 +214,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">items taken from home</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3"> cost to repair damaged credit, once car and windows goes to collections at the end of june this number will rise</div>
+
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 might be more, but...
@@ -219,8 +227,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5"> cost to repair damaged credit, once car and windows goes to collections at the end of june this number will rise</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">proceeds from the sale of our house</div>
+
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 to date
@@ -231,8 +240,8 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">proceeds from the sale of our house</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">    restitution of wages, based of 94k a year which comes up to 1807 a week at this time she owes + 8 weeks to find a new job to replace the old one the last 2 times it took 3 months to find a job, and im only going to 8 weeks instead</div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 only fair
@@ -243,8 +252,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">    restitution of wages, based of 94k a year which comes up to 1807 a week at this time she owes + 8 weeks to find a new job to replace the old one the last 2 times it took 3 months to find a job, and im only going to 8 weeks instead</div>
+
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">because the abuse effected my professional life she should have to pay the difference, in pay lost in comparison to pay earned. i would have gotten paid this if these abusive events hadnt taken place i found out around feb 23 2022, i'm trying to find the orginal doctors appoints that can be proven right now i just have a requisitoin from feb 23 so i can say this date at the very least. avg pay before these events roughly 110,000</div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 during separation
@@ -265,8 +275,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">because the abuse effected my professional life she should have to pay the difference, in pay lost in comparison to pay earned. i would have gotten paid this if these abusive events hadnt taken place i found out around feb 23 2022, i'm trying to find the orginal doctors appoints that can be proven right now i just have a requisitoin from feb 23 so i can say this date at the very least. avg pay before these events roughly 110,000</div>
+
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">Anne you said we share the space which enables natashia to come and go as she pleases, fine we'll split the mortgage, so 600 a month</div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 2022
@@ -287,8 +298,10 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <div className="font-semibold mt-5">Anne you said we share the space which enables natashia to come and go as she pleases, fine we'll split the mortgage, so 600 a month</div>
+
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">total</div>
+
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 to date
@@ -299,8 +312,6 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-
-            <div className="font-semibold mt-5">total</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
