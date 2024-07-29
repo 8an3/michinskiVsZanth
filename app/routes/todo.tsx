@@ -20,7 +20,7 @@ export default function Todo() {
   const [weeksSince, setWeeksSince] = useState(0);
 
   useEffect(() => {
-    const startDate = new Date('2024-04-06');
+    const startDate = new Date('2024-04-20');
     const weeks = calculateWeeksSince(startDate);
     setWeeksSince(weeks);
   }, []);
@@ -40,10 +40,10 @@ export default function Todo() {
   const wages = 1807 * weeksSince
   const findJob = 1807 * 8
   const replaceItems = 5500
-  const houseSale = (550000 - 443643.85) / 2
-  const missed2022 = 60000
-  const missed2023 = 60000
-  const rent = 600 * (weeksSince / 4)
+  const houseSale = (610000 - 443643.85) / 2
+  const missed2022 = 37000
+  const missed2023 = 64457.13
+  const rent = 1100 * (weeksSince / 4)
   const total = courtFiling +
     notary +
     refinanceLeftOver +
@@ -248,11 +248,22 @@ export default function Todo() {
               </span>
               <span>
                 <p className='text-right'>
+                  ${wages + findJob}
+                </p>
+              </span>
+            </li>
+            <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">Proceeds from house sale.</div>
+            <li className="flex items-center justify-between">
+              <span className="text-[#8a8a93]">
+                House
+              </span>
+              <span>
+                <p className='text-right'>
                   ${houseSale}
                 </p>
               </span>
             </li>
-
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <div className="font-semibold mb-3">because the abuse effected my professional life she should have to pay the difference, in pay lost in comparison to pay earned. i would have gotten paid this if these abusive events hadnt taken place i found out around feb 23 2022, i'm trying to find the orginal doctors appoints that can be proven right now i just have a requisitoin from feb 23 so i can say this date at the very least. avg pay before these events roughly 110,000</div>
             <li className="flex items-center justify-between">
