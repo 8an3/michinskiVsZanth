@@ -62,7 +62,7 @@ export default function Todo() {
     missed2022 +
     missed2023 - rent
 
-  const moneyPutIn = ((1125.50 + 300) * 12 * 60) + 5000
+  const moneyPutIn = (((1125.50 + 300) * 12) * 60) + 5000
   const charges = [
     { name: 'money to be received that I put into the house, deposit and monthly mortgage, up till july 31 2024', price: moneyPutIn },
 
