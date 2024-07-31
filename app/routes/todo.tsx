@@ -61,6 +61,34 @@ export default function Todo() {
     houseSale +
     missed2022 +
     missed2023 - rent
+
+  const charges = [
+    { name: '1500 sq foot stone patio ', price: 50000 },
+    { name: 'arborist work in the forest', price: 7000 },
+    { name: 'insulation installation, upstairs and garage', price: 5500 },
+    { name: 'yearly furnace and ac maintenance', price: 1800 },
+    { name: 'window replacement, front foyer', price: 2500 },
+    { name: 'fridge removal and installation of new fridge', price: 500 },
+    { name: 'trim installation, patio door', price: 1800 },
+    { name: 'toilet replacement', price: 950 },
+    { name: 'wallpaper removal and painting', price: 2500 },
+    { name: 'communications tower for internet', price: 3500 },
+    { name: 'stump removal', price: 7500 },
+    { name: 'maintenance of all engines and equipment in and around the house', price: 8000 },
+    { name: 'driveway repair', price: 1500 },
+    { name: 'firewood', price: 800 },
+    { name: 'snow removal', price: 11500 },
+    { name: 'driving services to your hometown', price: 0 },
+    { name: 'test', price: 0 },
+    { name: 'roof and gutter repair', price: 0 },
+    { name: 'plumbing', price: 0 },
+    { name: 'pest removal', price: 0 },
+    { name: 'top to bottom cleaning of the house including the cleaning and take down of everything in the garage, after you moved out (you left a disaster after the movers had come through)', price: 800 },
+    { name: 'furniture mover, buying all the items she did online and after we moved in to fill the home', price: 0 },
+    { name: 'the completion of all the work to buy the house (since its not my house, I would have been an agent acting on your behalf, labor hours and repayment of all the services I paid for to purchase the home)', price: 0 },
+  ]
+  const totalSum = charges.reduce((acc, charge) => acc + charge.price, 0);
+
   return (
     <div>
       <Card className='max-h-[800px] h-[800px] overflow-y-scroll w-[600px] mx-auto'>
@@ -72,6 +100,31 @@ export default function Todo() {
           <div className="font-semibold mt-3 text-muted-foreground ">bringing up natashias logic/reasoning regarding items taken from home, she states that if she bought it, no matter whos money it was, it belongs to her and she will be taking it from the separation. With that being said, i bought oliver with my own money from my own account, just from natashias reasoning oliver needs to be returned to me. The rings are no where to be found, but with natashias history of theft im assumming she took them. I do not have video evidence of this but they cannot be found as i have tried to look for them on numerous occasions. if they turn up i can return them to her, with saying that i bought them with my own money from my own account before she started to controll the finances with her reasoning i should get them back anyways.</div>
           <hr className=" text-muted-foreground w-[95%] mx-auto" />
           <ul className="grid gap-3">
+            <div className="font-semibold mb-3">items taken from home</div>
+            {charges.map((item, index) => (
+              <li className="flex items-center justify-between">
+                <span className="text-[#8a8a93]">
+                  {item.name}
+                </span>
+                <span>
+                  <p className='text-right'>
+                    ${item.price}
+                  </p>
+                </span>
+              </li>
+            ))}
+            <li className="flex items-center justify-between">
+              <span className="text-foreground">
+                Total
+              </span>
+              <span>
+                <p className='text-right'>
+                  ${totalSum}
+                </p>
+              </span>
+            </li>
+
+            <hr className=" text-muted-foreground w-[95%] mx-auto" />
 
             <div className="font-semibold mb-3">  I was supposed to get money on refinance, the balance of what natashia did need after the 40k,    have natashia provide evidence anything that you did not get, you get now </div>
             <li className="flex items-center justify-between">
