@@ -91,16 +91,26 @@ export default function Todo() {
     { name: 'top to bottom cleaning of the house including the cleaning and take down of everything in the garage, after you moved out (you left a disaster after the movers had come through)', price: 800 },
     { name: 'furniture mover, buying all the items she did online and after we moved in to fill the home', price: 0 },
     { name: 'the completion of all the work to buy the house (since its not my house, I would have been an agent acting on your behalf, labor hours and repayment of all the services I paid for to purchase the home)', price: 0 },
+    { name: 'rbcloc', price: rbcLoc },
+    { name: 'scotiaVisa', price: scotiaVisa },
+    { name: 'car', price: car },
+    { name: 'other', price: other },
+    { name: 'windows', price: windows },
+    { name: 'scotiaLoc', price: scotiaLoc },
+    { name: 'scotiaCheck', price: scotiaCheck },
+    { name: 'rbcChecking', price: rbcChecking },
+    { name: 'refinanceLeftOver', price: refinanceLeftOver },
+    { name: 'notary', price: notary },
+    { name: 'courtFiling', price: courtFiling },
+    { name: 'wages', price: wages },
+    { name: 'findJob', price: findJob },
+    { name: 'replaceItems', price: 2750 },
+
   ]
   const totalSum = charges.reduce((acc, charge) => acc + charge.price, 0);
-  const scenario2 = totalSum + (replaceItems / 2) + findJob + wages + courtFiling + notary + refinanceLeftOver + rbcChecking +
-    rbcLoc +
-    scotiaVisa +
-    car +
-    other +
-    windows +
-    scotiaLoc +
-    scotiaCheck
+  const scenario2 = totalSum
+
+
   return (
     <div>
       <Card className='max-h-[800px] h-[800px] overflow-y-scroll w-[600px] mx-auto'>
