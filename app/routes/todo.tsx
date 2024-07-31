@@ -40,7 +40,7 @@ export default function Todo() {
   const wages = 1807 * weeksSince
   const findJob = 1807 * 8
   const replaceItems = 5500
-  const houseSale = (610000 - 443643.85) / 2
+  const houseSale = (525000 - 443643.85) / 2
   const missed2022 = 37000
   const missed2023 = 64457.13
   const rent = 1100 * (weeksSince / 4)
@@ -62,14 +62,19 @@ export default function Todo() {
     missed2022 +
     missed2023 - rent
 
+  const moneyPutIn = ((1125.50 + 300) * 12 * 60) + 5000
   const charges = [
+    { name: 'money to be received that I put into the house, deposit and monthly mortgage, up till july 31 2024', price: moneyPutIn },
+
     { name: '1500 sq foot stone patio ', price: 50000 },
     { name: 'arborist work in the forest', price: 7000 },
     { name: 'insulation installation, upstairs and garage', price: 5500 },
     { name: 'yearly furnace and ac maintenance', price: 1800 },
     { name: 'window replacement, front foyer', price: 2500 },
-    { name: 'fridge removal and installation of new fridge', price: 500 },
-    { name: 'trim installation, patio door', price: 1800 },
+    { name: 'landscaping', price: 5500 },
+    { name: 'shutter removal', price: 850 },
+    { name: 'fridge removal and installation of new fridge, w/ pu', price: 500 },
+    { name: 'trim installation, patio door and others', price: 1800 },
     { name: 'toilet replacement', price: 950 },
     { name: 'wallpaper removal and painting', price: 2500 },
     { name: 'communications tower for internet', price: 3500 },
@@ -88,11 +93,40 @@ export default function Todo() {
     { name: 'the completion of all the work to buy the house (since its not my house, I would have been an agent acting on your behalf, labor hours and repayment of all the services I paid for to purchase the home)', price: 0 },
   ]
   const totalSum = charges.reduce((acc, charge) => acc + charge.price, 0);
-
+  const scenario2 = totalSum + (replaceItems / 2) + findJob + wages + courtFiling + notary + refinanceLeftOver + rbcChecking +
+    rbcLoc +
+    scotiaVisa +
+    car +
+    other +
+    windows +
+    scotiaLoc +
+    scotiaCheck
   return (
     <div>
       <Card className='max-h-[800px] h-[800px] overflow-y-scroll w-[600px] mx-auto'>
         <CardContent className="space-y-2">
+          <div className="font-semibold mb-3">Scenario 1: 50 / 50 split -- Scenario 2: its her house and you charge her for work done</div>
+          <li className="flex items-center justify-between">
+            <span className="text-[#8a8a93]">
+              Scenario 1
+            </span>
+            <span>
+              <p className='text-right'>
+                ${total} without rest of wages during abuse ${total - missed2022 - missed2023}
+              </p>
+            </span>
+          </li>
+          <li className="flex items-center justify-between">
+            <span className="text-[#8a8a93]">
+              Scenario 2
+            </span>
+            <span>
+              <p className='text-right'>
+                ${scenario2}
+              </p>
+            </span>
+          </li>
+          <hr className=" text-muted-foreground w-[95%] mx-auto" />
           <div className="font-semibold mt-5">Need to charge the applicant money due to the constant threats of charging me money, and not accepting offers.</div>
           <div className="font-semibold mt-3 text-muted-foreground "> rule 18 of the family law rules, no reasonable offer given by applicant. all court fees will be paid by the opposing party, get a lawyer asap as you no longer have to pay for one</div>
           <hr className=" text-muted-foreground w-[95%] mx-auto" />
@@ -100,7 +134,7 @@ export default function Todo() {
           <div className="font-semibold mt-3 text-muted-foreground ">bringing up natashias logic/reasoning regarding items taken from home, she states that if she bought it, no matter whos money it was, it belongs to her and she will be taking it from the separation. With that being said, i bought oliver with my own money from my own account, just from natashias reasoning oliver needs to be returned to me. The rings are no where to be found, but with natashias history of theft im assumming she took them. I do not have video evidence of this but they cannot be found as i have tried to look for them on numerous occasions. if they turn up i can return them to her, with saying that i bought them with my own money from my own account before she started to controll the finances with her reasoning i should get them back anyways.</div>
           <hr className=" text-muted-foreground w-[95%] mx-auto" />
           <ul className="grid gap-3">
-            <div className="font-semibold mb-3">items taken from home</div>
+            <div className="font-semibold mb-3">If its her house, she needs to be charged for all work done and material costs</div>
             {charges.map((item, index) => (
               <li className="flex items-center justify-between">
                 <span className="text-[#8a8a93]">
@@ -245,8 +279,7 @@ export default function Todo() {
             </li>
 
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3">items taken from home</div>
-
+            <div className="font-semibold mb-3"> cost to repair damaged credit, once car and windows goes to collections at the end of june this number will rise</div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 windows
@@ -268,7 +301,8 @@ export default function Todo() {
               </span>
             </li>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3"> cost to repair damaged credit, once car and windows goes to collections at the end of june this number will rise</div>
+
+            <div className="font-semibold mb-3">items taken from home</div>
 
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
@@ -280,21 +314,9 @@ export default function Todo() {
                 </p>
               </span>
             </li>
-            <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3">proceeds from the sale of our house</div>
 
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                to date
-              </span>
-              <span>
-                <p className='text-right'>
-                  $
-                </p>
-              </span>
-            </li>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3">    restitution of wages, based of 94k a year which comes up to 1807 a week at this time she owes + 8 weeks to find a new job to replace the old one the last 2 times it took 3 months to find a job, and im only going to 8 weeks instead</div>
+            <div className="font-semibold mb-3">    restitution of wages, based of 94k a year, 1807 a week + 8 weeks </div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 only fair
@@ -318,30 +340,7 @@ export default function Todo() {
               </span>
             </li>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3">because the abuse effected my professional life she should have to pay the difference, in pay lost in comparison to pay earned. i would have gotten paid this if these abusive events hadnt taken place i found out around feb 23 2022, i'm trying to find the orginal doctors appoints that can be proven right now i just have a requisitoin from feb 23 so i can say this date at the very least. avg pay before these events roughly 110,000</div>
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                during separation
-              </span>
-              <span>
-                <p className='text-right'>
-                  ${wages}
-                </p>
-              </span>
-            </li>
-            <li className="flex items-center justify-between">
-              <span className="text-[#8a8a93]">
-                while finding new job once separation has finnally concluded
-              </span>
-              <span>
-                <p className='text-right'>
-                  ${findJob}
-                </p>
-              </span>
-            </li>
-
-            <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3">Anne you said we share the space which enables natashia to come and go as she pleases, fine we'll split the mortgage, so 600 a month</div>
+            <div className="font-semibold mb-3">resitution of wages during abusive events</div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 2022
@@ -363,9 +362,9 @@ export default function Todo() {
               </span>
             </li>
 
-            <hr className=" text-muted-foreground w-[95%] mx-auto" />
-            <div className="font-semibold mb-3">total</div>
 
+            <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">Anne you said we share the space which enables natashia to come and go as she pleases, fine we'll split the mortgage, so 600 a month</div>
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
                 to date
@@ -376,6 +375,8 @@ export default function Todo() {
                 </p>
               </span>
             </li>
+            <hr className=" text-muted-foreground w-[95%] mx-auto" />
+            <div className="font-semibold mb-3">total</div>
             <hr className=" text-muted-foreground w-[95%] mx-auto" />
             <li className="flex items-center justify-between">
               <span className="text-[#8a8a93]">
