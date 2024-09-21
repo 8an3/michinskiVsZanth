@@ -125,6 +125,20 @@ export default function NewFile() {
     { data: 'Section total - remaining proceeds from house after paying debts, then split in half' },
 
   ]
+  const Debt = [
+    { data: 'Debts include' },
+    { data: 'RBC LOC - $7937' },
+    { data: 'Scotia VisaLine - $2573' },
+    { data: 'Chrysler 300 - $14032' },
+    { data: 'Other - $426' },
+    { data: 'ScotiaLine LOC - $42000' },
+    { data: 'Scotia Chequing account - $1300' },
+    { data: 'RBC Chequing - $3435' },
+    { data: 'To quickly put... all the arguments to rest, really quickly, because she used email to deal with all communications with the finance companies. Show me the conversation where it was natashias idea to have me removed like she claims now, if she hasnt deleted it i know already, we can find the conversation where the bank told her to do it. because it was one bank that told her to do this... not her running to 4 - 5 banks with the same financing strategy, otherwise we would have had the chance to go with 4 - banks, not stuck with one. There was a very specific reason, why we did not use our mortgage broker, because we already one who did 3 mortgages for us up to that point.' },
+    { data: 'Now this also in turn proves a couple of her other claims wrong, with the conversations she had with all these finance companies. the reason we were looking to refinance, and you can see from her actions what i have claimed to be true. we did infact have that agreement about our debts, which is why i had no problem pay for half her debts when we refinanced with that company. Ontop of that, she was not entirely transparent about her conversations she had with those companies regarding the amounts being dispersed to us. 55 or so thousand went to natashia and whatever amount left over was to be given to me for my debts. If i remember correctly, which i know i am because i checked my bank records, i received under a $1000 from that transaction probably around the 750 mark' },
+
+    { data: 'Compensation for Skylers damaged credit due to previous agreement with Natashia. Where both parties would split the cost of the higher interest cost to repair his credit. Along with the damaging actions during the relationship, ie she would use my money if any left over and put it on bills in her name, even on months we did not direct any funds towards the ones in my name, in order to keep one of our credit levels in a postion to do anything, if needed for larger expenses.' },
+  ]
   const FamilyHome = [
     { data: 'Natashia to return all of my payments that was put towards the house including the initial deposit made by me to secure the house. Repayment of all services needed to purchase the home, ie inspections and such. Along with a real estate industry standard fee for being her agent, in finding the right home for her, with countless walkthroughs of properties before finding the one for her and concluding all needed tasks in puchasing that home for her in the form of taking care of all legal matters, inspections, walkthroughs once secured to ensure the buying process went without a hitch and much more .' },
     { data: 'Agent fee - $5000' },
@@ -290,30 +304,7 @@ export default function NewFile() {
                         ))}
                       </AccordionContent>
                     </AccordionItem>
-                    <AccordionItem value="item-4">
-                      <AccordionTrigger>Restitution of lost wages</AccordionTrigger>
-                      <AccordionContent>
-                        {Restitutionkoflostwages.map((item, index) => (
-                          <li key={index} className=" group flex items-center justify-between">
-                            <div className='flex'>
-                              <p className="m-2 text-muted-foreground">
-                                {item.data}
-                              </p>
-                              <Button
-                                size="icon"
-                                variant="outline"
-                                onClick={() => copyText(item.data)}
-                                className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
-                              >
-                                <Copy className="h-3 w-3" />
-                                <span className="sr-only">Copy</span>
-                              </Button>
-                              {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
-                            </div>
-                          </li>
-                        ))}
-                      </AccordionContent>
-                    </AccordionItem>
+
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Rent</AccordionTrigger>
                       <AccordionContent>
