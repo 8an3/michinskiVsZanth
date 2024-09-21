@@ -104,11 +104,74 @@ export default function NewFile() {
 
   const property = [
     { data: 'Natashia has possession of the white Chrysler 300, according to the courts. She will sign off that all payments / amounts owed, if any, at the time of the separation will be her responsibilty. The vehicle will be left at the house with any items that belong with the care. In the event, that Natashia finally proves it is in fact, not her I will take the care once the separation has concluded.' },
-    { data: 'Replacement costs of items already taken - $5500' },
-    { data: 'If I do get removed before theres a signed agreement, Im assuming you want me to wait till everything has concluded to return the stolen items?' },
-    { data: '' },
-    { data: '' },
-    { data: '' },
+    { data: 'Replacement costs of items already taken - $10,500' },
+    { data: 'If I do get removed before theres a signed separation agreement, Im assuming you want me to wait till everything has concluded in this case to return the stolen items?' },
+    { data: 'section total - $10,500' },
+  ]
+
+  const fiftyfiftysplit = [
+    { data: 'Due to the events that have unfolded Skyler will remain at the property till sold. Natashia already has a place to live, proven by the length of time she has been away from our “shared” residence and Skyler does not. If skyler skyler were to leave, he would be living on the street, or in his car. Along with the un-likelihood that Natashia will re-hire a moving company to move all of her belongings back. Because of financial and logistics of unrealistaclly moving everything back to the point of being unreasonable, along with the fact that Natashia already having a place to stay while Skyler does not, Skyler will remain at the property till sold. ' },
+    { data: 'both parties have to agree on any deal brought forward from any potential customer to buy the home.' },
+    { data: 'The proceeds from the sale of the family home will be handled as follows:' },
+    { data: '(a) The parties will direct the lawyer on the sale to pay these expenses from the family home sale proceeds:' },
+    { data: '(i) real estate commission; (ii) adjustments for taxes, utilities, municipal fees or levies; (iii) amounts required to discharge registered encumbrances; (iv) legal fees and disbursements relating to the sale; and (v) all other sale adjustments.' },
+    { data: '(b) From the net proceeds (ie. after paying the expenses in (a) above), before distribution between the parties, the parties will: Separation Agreement Page 6 All debts incurred during therelationship to be paid in full. Including any debts That Natashia has that Skyler is unaware of. Along with Skylers debts, RBC Credit Line, RBC Chequing account, Scotia Bank Visa and ScotiaLine, Scotia Bank Savings account and car loan.' },
+    { data: 'Debts include - RBC LOC $7937, Scotia VisaLine $2573, Chrysler 300 $14032, other $426, ScotiaLine LOC $42000, Scotia Chequing account $1300, RBC Chequing $3435' },
+    { data: 'Compensation for Skylers damaged credit due to previous agreement with Natashia. Where both parties would split the cost of the higher interest cost to repair his credit. Along with the damaging actions during the relationship, ie she would use my money if any left over and put it on bills in her name, even on months we did not direct any funds towards the ones in my name, in order to keep one of our credit levels in a postion to do anything, if needed for larder expenses.' },
+    { data: 'After paying the amounts in (a) and (b) above, the remaining proceeds will be evenly disbursed to Natashia and Skyler' },
+    { data: 'The amount stated in the contract that skyler was to get from the last refinance minus any amount natashia can prove I recieved from that refinancing.' },
+    { data: 'A copy of all receipts pertaining to the sale of the home will be provided to Skyler Along with any other paperwork that outlines the use of the funds from the sale Of the house. Any amount that is irregular will be covered by Natashia.' },
+    { data: 'Once the sale of the home has concluded, Natashia will transfer Skylers proceeds to Him within 5 business days and will ensure he receives any and all paperwork previously discussed before the transfer has taken place.' },
+    { data: 'Section total - remaining proceeds from house after paying debts, then split in half' },
+
+  ]
+  const FamilyHome = [
+    { data: 'Natashia to return all of my payments that was put towards the house including the initial deposit made by me to secure the house. Repayment of all services needed to purchase the home, ie inspections and such. Along with a real estate industry standard fee for being her agent, in finding the right home for her, with countless walkthroughs of properties before finding the one for her and concluding all needed tasks in puchasing that home for her in the form of taking care of all legal matters, inspections, walkthroughs once secured to ensure the buying process went without a hitch and much more .' },
+    { data: 'Agent fee - $5000' },
+    { data: 'Payments made towards house - $102,636' },
+    { data: 'Initial Deposit - $5000' },
+    { data: 'Payment of services rendered for the home ie installing a 1500 sq foot paver stone patio - $ ' },
+    { data: 'Second refinance breakdown' },
+    { data: 'From second refinance contract natashia to recieve $38,997 for her debts into our mortgage, remainder to go to me' },
+    { data: 'house total came to $393649.29, total mortage set to $450,000' },
+    { data: 'remainder comes to $17354' },
+    { data: 'Section total - $129,990 not including services rendered, we will talk about that when we meet next' },
+  ]
+
+  const RestrainingOrder = [
+    { data: 'A restraining order will be awarded to Skyler against Natashia she cannot talk to, be within 500 meters of himself or Oliver or within 500 meters of his residence or workplace.' },
+    { data: 'With her extreme measures the day she broke up with me, and stole a dog that was not hers no matter what way you look at it, Oliver needs to be on the restraining order as well.' },
+    { data: 'The last date this beahvoiur took place was sept 20th. To top it off, she even disables the ac units for the house when its still 35+ degrees out. At the same time, went around and unplugged everything. In comparison, there is zero hostility from me towards her. I have not touched a single item that was hers since the start of the separation, I avoid her as much as I can when she is here and continue to tell her to leave me alone when she just continiously tries to instigate a fight in some form, even going so far as fabricating things on the spot. Were so far into the separation and having spent so much time apart, this attitude and behaviour is completely uncalled for. She cant name a single instance I have done her wrong. That can even extend years back into our relationship, where she spent the last 3 years mentally and financially abusing me. To the point where I wanted to admit myself to a mental hospital because of how bad the abuse was. The only reason I didnt was because we would go further into debt due to it, and she would absolutely loose it on me.' },
+    { data: 'On both of her offers she clearly states and puts forth to come to an agreement in regards to freedom from the other, and she turns around and acts the complete opposite and seeks me out to try to start arguments, that dont need to happen. What I mean by that is, she seeks to start fights and continue them and no matter the amount of time passed, you have not gained an inch towards a resolution or solution to help the matter at hand.' },
+  ]
+
+  const Rent = [
+    { data: 'Due to every decision made by natashia that has continued to drag this out as long as she can, I dont feel its right to pay rent. I could have left the first day, she chose otherwise.' },
+    { data: 'We can use this as a tactic to "give them" something to help negotiations but I dont want to feel like im under house arrest 24 / 7 i would not still be here if it wasnt for her threats' },
+  ]
+
+  const Courtcosts = [
+    { data: '50 / 50 split - natashia will cover my court costs' },
+    { data: '100% ownership - at this time, we will each cover our own costs. If the negotiations for our separation, slow down or come to a halt after removing me from the home and thinks the problem will go away, she will cover the costs of both of our lawyers. it clearly shows she was just trying to remove me from the property and not conclude the negotations. 2 offers in, 7 months does not show in any way that she wants to conclude these negotiations. not only that but also halting the process of the removal due to unforeseen consequnces because of the employed strategy by natashia and her lawyer, after they had already gotten the approval.' },
+    { data: 'Section total - TBD' },
+
+  ]
+
+  const Misc = [
+    { data: 'Restituion of lost wages' },
+    { data: 'Due to the events during the separation, ie threats made, flipping from one strategy to another, and others. The time taken to conclude such a trivial separation could have been dealt with in much shorter time frame If Natashia wasnt so unwilling to cooperate in any capacity, not lifting the threats she made which in turn lost my job because of her actions, even when asked of her in writing, and taking the longest route to try to conclude these negotiations, every decision made getting to where we are now was made by her. That she planned, for an unknown amount of time before she forced the separation with no reason given, and no warning while at the same time preparing for her exit, emptying accunts, making sure she had people help her move when she promised not to take things from the property. Due to her threats Ive had to stay in our house since the near of our separation. In my career, at the level Im at, it is incredibly harder to find employment during the slower winter season. Due to a lower amount of jobs that pay around what I have been for years previous, which also severly limits my prospects to even just get back on my feet. No one wants to hire a sales person to make half or less than what they have gotten previously. Multiple times, I asked natashia to lift her threats, due to this very reason, with out even a response to my pleas, it is now the winter season and I will be lucky to find employement before spring. Making it harder still, even with prior attmepts at securing employment through the regular hiring process, that avenue has been unsuccessful for me due to being head hunted for the last sales positions I have held over the last 10 years, because of how the industry operates. Every employer give the same reason when turning me down, they cant afford it and even if that can they dont want to hire someone who will leave the first chance at a higher pay structure. Even after trying to convince them I wont. Natashia could have lifted the threats, but chose not to, she could have ended this separation at anytime, but chose not to, forcing countless situations onto me, that I dont want to be in. There even more reasons but just for the ones list so far, its only right that she covers the lost wages due to her actions. All of this could have been avoided, and dealt with effiently' },
+    { data: '$1807 a week since april 16 2024 plus 12 weeks' },
+    { data: 'Oliver' },
+    { data: 'On the night of the separation, I had called for my dog, in response Natashia start to throw a fit frantically, grabbed my dog and ran from the premises. Stealing a dog, that was not in her name and not assiated to her in a any way other than being her fiances dog. All the paperwork was in my name, he was bought by me and so on. Ontop of that, when my last dog passed, due to her pressering me to put her down, she wouldnt allow me to purchase another dog to replace her with, and within months of that, steals my last dog that I have. Due to her planning of the separation, she emptied our joint account, where my pay checks directly deposited into, she emptied all valuable belongings from the home, including all food, just mere days after promising that both of us wouldnt take anything off of the premises without the other being there. Which in turn forced me into a financial sitiuation, where I had to make a decision I wouldnt make any other time, but natashia offered it to me pretty conviently, all the while all these events happened in a short window of time planned by natashia. She offered to hand over the engagment rings for oliver. Within weeks, the rings disappear and she claims it was because of my adhd and they will turn up eventually... In a home that was previosly emptied by natashia, theres no where to loose them in the house. Who has a history of theft, even outside of our relationship, with evidence. Due to signing under duress due to events caused by natashia and the reasons listed above natashia is to return oliver back the same day this agreement is signed.' },
+    { data: 'Home improvement loan' },
+    { data: '100% ownership - The loan to be paid in the total of its original amount, plus all fees that have been associated with the contract. MINUS any amounts natashia can prove she paid with her own money, a clear track from her account to the companies account. The total contract with associated fees comes up to $33,889.40' },
+    { data: '50 / 50 split - will be paid off by the proceeds from the house sale before the proceeds get split up to both owners along with paying the other debts first as well.' },
+    { data: 'Section total - $1807 a week since april 16 2024 plus 12 weeks && $33,889.40' },
+
+  ]
+  const BreachofContract = [
+    { data: 'Due to Natshias malicious intent and her actions during the separation alone, this ties in with the same reason for the need of a restraining order because if the separation doesnt go her way, or gets what she wants she will lash out. For example, even to this day she feels the need, to show up unnounced with disruptive contractors, go through my belongings (she has not spent a night here in 7 months, and she took 95% of the belongings in the house already.), steal as much as she can while trying to instigate arguments with me. When she knows she needs to comunicate through her counsel.  A penalty is needed to keep her honest while we conclude the remainder of our separation because without one, she will continue with this behaviour and will just escalate the more things dont go her way. If she were to break any term in this contract she will forfeit 5% of her share of the property. Whether it goes to Skyler or a charity, doesnt matter as it is only to ensure Natashia be kept honest. Someone with no ties to either party will make this decision. For example whoever oversees the signing of this contract at court. I would prefer to get the amount because after much reflection on our relationship, especially the last 3 years, I would like to put it towards sessions with a phsyc once this has concluded' },
+    { data: 'The last date this beahvoiur took place was sept 20th. To top it off, she even disables the ac units for the house when its still 35+ degrees out. At the same time, went around and unplugged everything. In comparison, there is zero hostility from me towards her or any type of petty action that would inconvience her. I have not touched a single item that was hers since the start of the separation, I avoid her as much as I can when she is here and continue to tell her to leave me alone when she tries to start fights. Were so far into the separation and having spent so much time apart, this attitude and behaviour is completely uncalled for. She cant name a single instance I have done her wrong during the separation. That can even extend years back into our relationship, where she spent the last 3 years mentally and financially abusing me.' },
   ]
   return (
     <Tabs defaultValue="Skyler" className="w-[95%]  mx-auto my-auto">
@@ -118,7 +181,7 @@ export default function NewFile() {
       </TabsList>
       <TabsContent value="Skyler">
 
-        <Tabs defaultValue="Current Skyler" className="w-[95%]  mx-auto my-auto">
+        <Tabs defaultValue="Current Skyler" className="w-full mx-auto my-auto">
           <TabsList className="rounded-[6px] ">
             <TabsTrigger className="rounded-[6px] " value="Current Skyler">Current</TabsTrigger>
             <TabsTrigger className="rounded-[6px] " value="July 1, 2024" >July 1, 2024</TabsTrigger>
@@ -128,7 +191,7 @@ export default function NewFile() {
             <Card className={cn("w-[80%]",)} >
               <CardHeader>
                 <CardTitle>Current Offer</CardTitle>
-                <CardDescription>Hover over section to make copy button to appear at top right of the first paragraph.</CardDescription>
+                <CardDescription>Hover over section to make copy button appear to the right side.</CardDescription>
               </CardHeader>
               <CardContent className="grid gap-4">
                 <div>
@@ -161,7 +224,28 @@ export default function NewFile() {
                     <AccordionItem value="item-2">
                       <AccordionTrigger>Family Home</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        <p>50 / 50 split of family home</p>
+                        {fiftyfiftysplit.map((item, index) => (
+                          <li key={index} className=" group flex items-center justify-between">
+                            <div className='flex'>
+                              <p className="m-2 text-muted-foreground">
+                                {item.data}
+                              </p>
+                              <Button
+                                size="icon"
+                                variant="outline"
+                                onClick={() => copyText(item.data)}
+                                className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                              >
+                                <Copy className="h-3 w-3" />
+                                <span className="sr-only">Copy</span>
+                              </Button>
+                              {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                            </div>
+                          </li>
+                        ))}
+                        <p>100% ownership loss incurred due to events during separation.</p>
+                        {FamilyHome.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -185,7 +269,7 @@ export default function NewFile() {
                     <AccordionItem value="item-3">
                       <AccordionTrigger>Restraining Order</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {RestrainingOrder.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -209,7 +293,7 @@ export default function NewFile() {
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Restitution of lost wages</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {Restitutionkoflostwages.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -233,7 +317,7 @@ export default function NewFile() {
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Rent</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {Rent.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -257,7 +341,7 @@ export default function NewFile() {
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Court costs</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {Courtcosts.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -281,7 +365,7 @@ export default function NewFile() {
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Debt</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {Debt.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -305,7 +389,7 @@ export default function NewFile() {
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Misc.</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {Misc.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -329,7 +413,7 @@ export default function NewFile() {
                     <AccordionItem value="item-4">
                       <AccordionTrigger>Breach of Contract</AccordionTrigger>
                       <AccordionContent>
-                        {property.map((item, index) => (
+                        {BreachofContract.map((item, index) => (
                           <li key={index} className=" group flex items-center justify-between">
                             <div className='flex'>
                               <p className="m-2 text-muted-foreground">
@@ -399,7 +483,7 @@ export default function NewFile() {
 
       <TabsContent value="Natashia">
 
-        <Tabs defaultValue="Current Cunt" className="w-[95%]  mx-auto my-auto">
+        <Tabs defaultValue="Current Cunt" className="w-full  mx-auto my-auto">
           <TabsList className="rounded-[6px] ">
             <TabsTrigger className="rounded-[6px] " value="Current Cunt">Current</TabsTrigger>
             <TabsTrigger className="rounded-[6px] " value="Notes On Her Current">Notes On Her Current</TabsTrigger>
