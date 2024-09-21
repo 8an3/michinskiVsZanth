@@ -16,7 +16,7 @@
   "files.encoding": "utf8",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "peacock.color": "#3399cc",
+  "peacock.color": "#be0000",
   "search.exclude": {
     ".cache/**": true,
     "build/**": true,
@@ -24,34 +24,32 @@
     "public/build/**": true
   },
   "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#5cadd6",
-    "activityBar.background": "#5cadd6",
+    "activityBar.activeBackground": "#d62c2c",
+    "activityBar.background": "#d62c2c",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
     "activityBarBadge.background": "#f9e6f2",
     "activityBarBadge.foreground": "#15202b",
     "commandCenter.border": "#15202b99",
-    "sash.hoverBorder": "#5cadd6",
-    "statusBar.background": "#3399cc",
+    "sash.hoverBorder": "#d62c2c",
+    "statusBar.background": "#be0000",
     "statusBar.foreground": "#15202b",
     "statusBarItem.hoverBackground": "#297aa3",
-    "statusBarItem.remoteBackground": "#3399cc",
+    "statusBarItem.remoteBackground": "#be0000",
     "statusBarItem.remoteForeground": "#15202b",
-    "titleBar.activeBackground": "#3399cc",
+    "titleBar.activeBackground": "#be0000",
     "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveBackground": "#3399cc99",
+    "titleBar.inactiveBackground": "#be000099",
     "titleBar.inactiveForeground": "#15202b99"
   },
   "automaton.list": {
     "commentDown": {
-        "description" : "Fold MOTHERFUCKER!@",
-
-        "action" :[
-                "editor.foldLevel1",
-                "editor.foldLevel2"
-            ]
-
+      "description": "Fold MOTHERFUCKER!@",
+      "action": [
+        "editor.foldLevel1",
+        "editor.foldLevel2"
+      ]
     },
-},
-"typescript.tsdk": "node_modules\\typescript\\lib"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
