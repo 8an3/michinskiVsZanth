@@ -30,8 +30,12 @@ export async function clientAction({ request }: ClientActionFunctionArgs) {
 export default function NewFile() {
   const updatesQC = [
     {
+      main: 'Current Offer',
+      title: 'Revised offer going over both paths so we can discuss in depth during our next meeting, instead of making another pdf since you will probably have your own software to use, I made each section copyable by a simple click on the sections paragraph to easily move the data over.'
+    },
+    {
       main: 'form 00',
-      title: 'form 00 -- offer to settle was never served by council confirmed by searching through entire email database '
+      title: 'form 00 -- offer to settle - Was never served by her council confirmed by searching through entire email database. Ive never seen this offer before now. She has never even given me another offer in that format previously. Im assuming this was made after the fact due to the level cooperation from them. None of their other offers have a date, why does the one I never got have one?'
     },
     {
       main: 'Website',
@@ -214,9 +218,9 @@ export default function NewFile() {
   ]
   return (
     <div className=' grid grid-cols-1 justify-center'>
-      <Card className='max-h-[800px] h-[800px] overflow-y-scroll m-5'>
+      <Card className='max-h-[800px] h-auto overflow-y-auto m-5'>
         <CardHeader>
-          <CardTitle>Questions for Duty Council</CardTitle>
+          <CardTitle>Updates for Council</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
           {updatesQC.map((item) => (

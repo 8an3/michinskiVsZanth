@@ -103,7 +103,12 @@ export default function NewFile() {
 
 
   const property = [
-    { data: 'Natashia has possession of the white Chrysler 300, according to the courts. She will sign off that all payments / amounts owed, if any, at the time of the separation will be her responsibilty. The vehicle will be left at the house with any items that belong with the care. In the event, that Natashia finally proves it is in fact, not her I will take the care once the separation has concluded.' }
+    { data: 'Natashia has possession of the white Chrysler 300, according to the courts. She will sign off that all payments / amounts owed, if any, at the time of the separation will be her responsibilty. The vehicle will be left at the house with any items that belong with the care. In the event, that Natashia finally proves it is in fact, not her I will take the care once the separation has concluded.' },
+    { data: 'Replacement costs of items already taken - $5500' },
+    { data: 'If I do get removed before theres a signed agreement, Im assuming you want me to wait till everything has concluded to return the stolen items?' },
+    { data: '' },
+    { data: '' },
+    { data: '' },
   ]
   return (
     <Tabs defaultValue="Skyler" className="w-[95%]  mx-auto my-auto">
@@ -153,7 +158,7 @@ export default function NewFile() {
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-2">
-                    <AccordionTrigger>Family Home </AccordionTrigger>
+                    <AccordionTrigger>Family Home</AccordionTrigger>
                     <AccordionContent>
                       {property.map((item, index) => (
                         <li key={index} className=" group flex items-center justify-between">
@@ -225,7 +230,103 @@ export default function NewFile() {
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-4">
-                    <AccordionTrigger>Restitution of lost wages</AccordionTrigger>
+                    <AccordionTrigger>Rent</AccordionTrigger>
+                    <AccordionContent>
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>Court costs</AccordionTrigger>
+                    <AccordionContent>
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>Debt</AccordionTrigger>
+                    <AccordionContent>
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>Misc.</AccordionTrigger>
+                    <AccordionContent>
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>Breach of Contract</AccordionTrigger>
                     <AccordionContent>
                       {property.map((item, index) => (
                         <li key={index} className=" group flex items-center justify-between">
@@ -339,7 +440,7 @@ export default function NewFile() {
             </CardFooter>
           </Card>
 
-          <Card className={cn("w-[80%]", className)} {...props}>
+          <Card className={cn("w-[80%]")} >
             <CardHeader>
               <CardTitle>Path: </CardTitle>
               <CardDescription> 50 / 50 split</CardDescription>

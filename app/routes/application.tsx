@@ -46,7 +46,7 @@ export default function NewFile() {
       </TabsList>
 
       <TabsContent value="Updated">
-        <iframe className='mx-auto' src='assets/Application (General) AMENDED Form 08 - Applicant - Michinski - 12-AUG-2024.pdf' width="95%" height="1000px" />
+        <iframe className='mx-auto' src='assets/Application(General)AMENDEDForm08-Applicant-Michinski-12-AUG-2024.pdf' width="95%" height="1000px" />
       </TabsContent>
 
       <TabsContent value="Orignial">
