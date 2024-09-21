@@ -80,6 +80,11 @@ export default function NewFile() {
     { date: 'Aug 10, 11:17 PM' },
     { date: 'Might be missing an informal offer or two to make changes to our at the time current offers' },
   ]
+
+
+  const property = [
+    { data: '' }
+  ]
   return (
     <Tabs defaultValue="Skyler" className="w-[95%]  mx-auto my-auto">
       <TabsList className="rounded-[6px] ">
@@ -101,11 +106,12 @@ export default function NewFile() {
             </CardHeader>
             <CardContent className="grid gap-4">
               <div>
+
                 <Accordion type="single" collapsible className="w-full">
                   <AccordionItem value="item-1">
-                    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                    <AccordionTrigger>Property</AccordionTrigger>
                     <AccordionContent>
-                      Yes. It adheres to the WAI-ARIA design pattern.
+
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-2">
