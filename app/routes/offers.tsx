@@ -5,7 +5,7 @@ import {
   useFetcher,
   useLoaderData,
 } from "@remix-run/react";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Tabs,
   TabsContent,
@@ -25,6 +25,9 @@ import {
   CardHeader,
   CardTitle,
 } from "~/components/ui/card"
+import { FaCheck } from "react-icons/fa";
+import { ChevronLeft, ChevronRight, Copy, X, CreditCard, File, Home, LineChart, ListFilter, MoreVertical, Package, Send, FileText, Package2, PanelLeft, Plus, Search, Settings, ShoppingCart, Truck, Users2, Eye, PanelTop, } from "lucide-react"
+
 
 export async function clientLoader() {
   return { ok: true };
@@ -81,9 +84,26 @@ export default function NewFile() {
     { date: 'Might be missing an informal offer or two to make changes to our at the time current offers' },
   ]
 
+  const copyText = (text) => {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        setCopiedText(text);
+        setTimeout(() => setCopiedText(''), 3000); // Reset after 3 seconds
+      })
+      .catch((error) => {
+        // console.error('Failed to copy text: ', error);
+      });
+  };
+  const [copiedText, setCopiedText] = useState('');
+  const timerRef = React.useRef(0);
+
+  useEffect(() => {
+    return () => clearTimeout(timerRef.current);
+  }, [])
+
 
   const property = [
-    { data: '' }
+    { data: 'Natashia has possession of the white Chrysler 300, according to the courts. She will sign off that all payments / amounts owed, if any, at the time of the separation will be her responsibilty. The vehicle will be left at the house with any items that belong with the care. In the event, that Natashia finally proves it is in fact, not her I will take the care once the separation has concluded.' }
   ]
   return (
     <Tabs defaultValue="Skyler" className="w-[95%]  mx-auto my-auto">
@@ -102,7 +122,7 @@ export default function NewFile() {
           <Card className={cn("w-[80%]",)} >
             <CardHeader>
               <CardTitle>Current Offer</CardTitle>
-              <CardDescription>Hover over section to make copy button to appear at top left of the first paragraph.</CardDescription>
+              <CardDescription>Hover over section to make copy button to appear at top right of the first paragraph.</CardDescription>
             </CardHeader>
             <CardContent className="grid gap-4">
               <div>
@@ -111,20 +131,121 @@ export default function NewFile() {
                   <AccordionItem value="item-1">
                     <AccordionTrigger>Property</AccordionTrigger>
                     <AccordionContent>
-
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-2">
-                    <AccordionTrigger>Is it styled?</AccordionTrigger>
+                    <AccordionTrigger>Family Home </AccordionTrigger>
                     <AccordionContent>
-                      Yes. It comes with default styles that matches the other
-                      components&apos; aesthetic.
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-3">
-                    <AccordionTrigger>Is it animated?</AccordionTrigger>
+                    <AccordionTrigger>Restraining Order</AccordionTrigger>
                     <AccordionContent>
-                      Yes. It's animated by default, but you can disable it if you prefer.
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>Restitution of lost wages</AccordionTrigger>
+                    <AccordionContent>
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>Restitution of lost wages</AccordionTrigger>
+                    <AccordionContent>
+                      {property.map((item, index) => (
+                        <li key={index} className=" group flex items-center justify-between">
+                          <div className='flex'>
+                            <p className="m-2 text-muted-foreground">
+                              {item.data}
+                            </p>
+                            <Button
+                              size="icon"
+                              variant="outline"
+                              onClick={() => copyText(item.data)}
+                              className="h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100 ml-2"
+                            >
+                              <Copy className="h-3 w-3" />
+                              <span className="sr-only">Copy</span>
+                            </Button>
+                            {copiedText === item.data && <FaCheck strokeWidth={1.5} className=" ml-2 text-lg hover:text-primary" />}
+                          </div>
+                        </li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
