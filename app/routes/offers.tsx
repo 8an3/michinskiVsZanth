@@ -94,8 +94,42 @@ export default function NewFile() {
         </TabsList>
 
         <TabsContent value="Current Skyler">
-          <iframe className='mx-auto' src='assets/latestOFfer.pdf' width="95%" height="1000px" />
+          <Card className={cn("w-[80%]",)} >
+            <CardHeader>
+              <CardTitle>Current Offer</CardTitle>
+              <CardDescription>Hover over section to make copy button to appear at top left of the first paragraph.</CardDescription>
+            </CardHeader>
+            <CardContent className="grid gap-4">
+              <div>
+                <Accordion type="single" collapsible className="w-full">
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                    <AccordionContent>
+                      Yes. It adheres to the WAI-ARIA design pattern.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-2">
+                    <AccordionTrigger>Is it styled?</AccordionTrigger>
+                    <AccordionContent>
+                      Yes. It comes with default styles that matches the other
+                      components&apos; aesthetic.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-3">
+                    <AccordionTrigger>Is it animated?</AccordionTrigger>
+                    <AccordionContent>
+                      Yes. It's animated by default, but you can disable it if you prefer.
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+            </CardContent>
+            <CardFooter>
+
+            </CardFooter>
+          </Card>
         </TabsContent>
+
         <TabsContent value="July 1, 2024">
           <iframe className='mx-auto' src='assets/latestOFfer.pdf' width="95%" height="1000px" />
         </TabsContent>
@@ -148,7 +182,7 @@ export default function NewFile() {
         </TabsContent>
         <TabsContent value="Notes On Her Current">
 
-          <Card className={cn("w-[80%]", className)} {...props}>
+          <Card className={cn("w-[80%]",)} >
             <CardHeader>
               <CardTitle>Path: </CardTitle>
               <CardDescription>Property 100% hers</CardDescription>
@@ -174,9 +208,7 @@ export default function NewFile() {
               </div>
             </CardContent>
             <CardFooter>
-              <Button className="w-full">
-                <CheckIcon className="mr-2 h-4 w-4" /> Mark all as read
-              </Button>
+
             </CardFooter>
           </Card>
 
@@ -206,9 +238,7 @@ export default function NewFile() {
               </div>
             </CardContent>
             <CardFooter>
-              <Button className="w-full">
-                <CheckIcon className="mr-2 h-4 w-4" /> Mark all as read
-              </Button>
+
             </CardFooter>
           </Card>
 
