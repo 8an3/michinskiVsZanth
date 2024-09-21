@@ -28,10 +28,20 @@ export async function clientAction({ request }: ClientActionFunctionArgs) {
   return { ok: true };
 }
 export default function NewFile() {
+  const updatesQC = [
+    {
+      main: 'form 00',
+      title: 'form 00 -- offer to settle was never served by council confirmed by searching through entire email database '
+    },
+    {
+      main: 'Website',
+      title: 'updated website to current talking points -- sat sept 21'
+    },
+  ]
   const questionsDC = [
     {
-      main: 'NOTE FOR NATASHIA SIGNING IN "BERWICK" BUT PROGRAM SAYS EMBRUN',
-      title: 'Our internet providor is in cassleman, with these types of programs it would state cassleman not embrun if she actually signed while she was at the house'
+      main: 'if paperwork needs to be done by self moving forward ',
+      title: 'ask for settlement conference date: cornwallfcjtrialcoordination@ontario.ca -- once reserved, complete form 17 email to: familycourt.cornwall@ontario.ca -- once sealed, email to applicant, complete form 6b -- file 17 and 6b by email: familycourt.cornwall@ontario.ca isntead of portal 17c, 17f 4 days in advance: familycourt.cornwall@ontario.ca -- when you talk to legal aid next -- next court date isnt even set theyre just focuised on removing me from the property and hope that it ends there since there isnt even a settlement conference booked. none of the paperwork has been completed yet by the applicant which helps show she does have an intention on wanting to conclude the separation fairly.'
     },
     {
       main: 'in response to her case conference breif',
@@ -54,18 +64,14 @@ export default function NewFile() {
       main: 'account number 261',
       title: 'she put a value of 10k on it at valuation date what does that mean?'
     },
-    {
-      main: 'SPOUSE/COMMON LAW CAN THESE PEOPLE MAKE UP THEIR MINDS?',
-      title: 'labeled as spouse on page 4 of second refinancing docs and other places on thiks contract'
-    },
+
+
     {
       main: 'COUNSEL COMMITS PERJURY',
       title: 'what happens when councel lies?'
     },
-    {
-      main: 'PRIVATE PROSECUTION',
-      title: 'how do i go about privetly prosecuting natashia, in regards to fraud, theft and spousal abuse?'
-    },
+
+
     {
       main: 'PAPERWORK MISTAKES IN CONTRACTS',
       title: 'massive mistake on the page where Natashia solemnly declares on the contract that made me give her my half'
@@ -78,15 +84,27 @@ export default function NewFile() {
       main: 'NATASHIA WAS GIVEN LOGIN DETAILS BY TEXT MESSAGE FIND THESE',
       title: 'in a text message you give her login details for one of our services I think it Disney in order for her to make changes on the account proving her lying again'
     },
-    {
-      main: 'UNNESSACRY AGGRESIVE LAWYER PRACTICES',
-      title: ''
-    },
 
 
     {
       main: '----------------FOLLOWING ARE ANSWERED ----------------------',
       title: 'But left here for future reference.'
+    },
+    {
+      main: 'NOTE FOR NATASHIA SIGNING IN "BERWICK" BUT PROGRAM SAYS EMBRUN',
+      title: 'Our internet providor is in cassleman, with these types of programs it would state cassleman not embrun if she actually signed while she was at the house'
+    },
+    {
+      main: 'SPOUSE/COMMON LAW CAN THESE PEOPLE MAKE UP THEIR MINDS?',
+      title: 'labeled as spouse on page 4 of second refinancing docs and other places on thiks contract'
+    },
+    {
+      main: 'PRIVATE PROSECUTION',
+      title: 'how do i go about privetly prosecuting natashia, in regards to fraud, theft and spousal abuse?'
+    },
+    {
+      main: 'UNNESSACRY AGGRESIVE LAWYER PRACTICES',
+      title: ''
     },
     {
       main: 'PERJURY - IN NOTICE OF MOTION',
@@ -195,8 +213,27 @@ export default function NewFile() {
 
   ]
   return (
-    <div>
-      <Card className='max-h-[800px] h-[800px] overflow-y-scroll m5'>
+    <div className=' grid grid-cols-1 justify-center'>
+      <Card className='max-h-[800px] h-[800px] overflow-y-scroll m-5'>
+        <CardHeader>
+          <CardTitle>Questions for Duty Council</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-2">
+          {updatesQC.map((item) => (
+            <Accordion type="single" collapsible className="w-full"  >
+              <AccordionItem value={item.main} key={item.title}>
+                <AccordionTrigger>
+                  {item.main}
+                </AccordionTrigger>
+                <AccordionContent>
+                  {item.title}
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          ))}
+        </CardContent>
+      </Card>
+      <Card className='max-h-[800px] h-[800px] overflow-y-scroll m-5'>
         <CardHeader>
           <CardTitle>Questions for Duty Council</CardTitle>
         </CardHeader>

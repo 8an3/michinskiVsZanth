@@ -419,12 +419,9 @@ export default function Todo() {
           <div className="font-semibold mt-5">To-Do</div>
           <hr className="my-4 text-muted-foreground w-[95%] mx-auto" />
           <p>
-            - next court data: july 2nd @ 8:45 am
+            - next court data: ---
           </p>
-          <p>
-            - 13 july next report to court
-          </p>
-          <div className="font-semibold mt-5">ORDERS REQUESTED IN MOTIONS</div>
+          <div className="font-semibold mt-5">ORDERS REQUESTED FROM COUNSEL THAT WAS ORDERED BY SITING JUDGE- CURRENTLY NOT RECEIVED</div>
           <hr className="my-4 text-muted-foreground w-[95%] mx-auto" />
           <p>
             This can be requested during case conference.

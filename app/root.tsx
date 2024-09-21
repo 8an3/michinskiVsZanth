@@ -129,7 +129,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     : "text-foreground/60"
                 )}
               >
-                Questions for Duty Counsel
+                Updates / Questions for Counsel
               </Link>
               <Link
                 to="/todo"
