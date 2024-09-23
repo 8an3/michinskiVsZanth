@@ -123,7 +123,7 @@ export default function NewFile() {
     { data: 'A copy of all receipts pertaining to the sale of the home will be provided to Skyler Along with any other paperwork that outlines the use of the funds from the sale Of the house. Any amount that is irregular will be covered by Natashia.' },
     { data: 'Once the sale of the home has concluded, Natashia will transfer Skylers proceeds to Him within 5 business days and will ensure he receives any and all paperwork previously discussed before the transfer has taken place.' },
     { data: '30 day window to move out once sold.' },
-
+    { data: 'Home improvement loan - will be paid off by the proceeds from the house sale before the proceeds get split up to both owners along with paying the other debts first as well.' },
     { data: 'Section total - remaining proceeds from house after paying debts, then split in half' },
 
   ]
@@ -144,6 +144,7 @@ export default function NewFile() {
 
   ]
   const FamilyHome = [
+    { data: 'Money put into the house' },
     { data: 'Natashia to return all of my payments that was put towards the house including the initial deposit made by me to secure the house. Repayment of all services needed to purchase the home, ie inspections and such. Along with a real estate industry standard fee for being her agent, in finding the right home for her, with countless walkthroughs of properties before finding the one for her and concluding all needed tasks in puchasing that home for her in the form of taking care of all legal matters, inspections, walkthroughs once secured to ensure the buying process went without a hitch and much more .' },
     { data: 'Agent fee - $5000' },
     { data: 'Payments made towards house - $102,636' },
@@ -153,9 +154,13 @@ export default function NewFile() {
     { data: 'From second refinance contract natashia to recieve $38,997 for her debts into our mortgage, remainder to go to me' },
     { data: 'house total came to $393649.29, total mortage set to $450,000' },
     { data: 'remainder comes to $17354' },
-    { data: '30 day window to move out once signed.' },
+    { data: 'Addendum to house sale' },
+    { data: '30 day period for closing once the deal is to move out out.' },
+    { data: 'Home improvement loan' },
+    { data: 'The loan to be paid in the total of its original amount, plus all fees that have been associated with the contract. MINUS any amounts natashia can prove she paid with her own money, a clear track from her account to the companies account. The reason for proof of payment comes down to, the contract is entirely in my name and the original receipt stating that I was the one that made the deposit on the contract. The total contract with associated fees comes up to $33,889.40' },
 
-    { data: 'Section total - $129,990 not including services rendered, we will talk about that when we meet next' },
+
+    { data: 'Section total - $163,879.40 not including services rendered, we will talk about that when we meet next' },
   ]
 
   const RestrainingOrder = [
@@ -167,7 +172,7 @@ export default function NewFile() {
 
   const Rent = [
     { data: 'Due to every decision made by natashia that has continued to drag this out as long as she can, I dont feel its right to pay rent. I could have left the first day, she chose otherwise.' },
-    { data: 'We can use this as a tactic to "give them" something to help negotiations but I dont want to feel like im under house arrest 24 / 7 i would not still be here if it wasnt for her threats' },
+    { data: 'We can use this as a tactic to "give them" something to help negotiations but I dont want to. i feel like im under house arrest 24 / 7, cant leave cant look for a job cant enjoy family outings, absolutely nothing. she buy all of apples products and with her gynocentrism or female superiorty i do not trust anything in the house, or my car. With my experince in cyber security, i know just how easy it is to track people. and apple came out with an awesome product for 30$ i think but it tracks what you leave it in, globally. she can put it in my car, or attach it to the outside magnetically and as soon as i get in and move it, she would be notified and track where im driving, how long im there and everything. i would not still be here if it wasnt for her threats. additionally whenever this concludes, i will be testing everything that i take with me for electronics that emit any type of frequency, before i leave so she has no way on knowing where im moving too, along with a new cell number as well. these measures may seem extreme but the cops will not do anything, ive already attempted to get them to intervene, and nothing. I want peace of mind in my life, if shes willing to come in while im sleeping while she currently does not live here, go around and dig through all my things, steal whatever she wants, disables things and god knows else shes been doing. She will have no problem doing that if she finds out where i live next, because shes already doing that now. Im now back to padlocking the room im sleeping in with half inch thick chains. i know its hard to put yourself in my shoes, but imagine not having a single moment of peace in your day. at work, at home, anywhere.' },
   ]
 
   const Courtcosts = [
@@ -183,10 +188,7 @@ export default function NewFile() {
     { data: '$1807 a week since april 16 2024 plus 12 weeks' },
     { data: 'Oliver' },
     { data: 'On the night of the separation, I had called for my dog, in response Natashia start to throw a fit frantically, grabbed my dog and ran from the premises. Stealing a dog, that was not in her name and not assiated to her in a any way other than being her fiances dog. All the paperwork was in my name, he was bought by me and so on. Ontop of that, when my last dog passed, due to her pressering me to put her down, she wouldnt allow me to purchase another dog to replace her with, and within months of that, steals my last dog that I have. Due to her planning of the separation, she emptied our joint account, where my pay checks directly deposited into, she emptied all valuable belongings from the home, including all food, just mere days after promising that both of us wouldnt take anything off of the premises without the other being there. Which in turn forced me into a financial sitiuation, where I had to make a decision I wouldnt make any other time, but natashia offered it to me pretty conviently, all the while all these events happened in a short window of time planned by natashia. She offered to hand over the engagment rings for oliver. Within weeks, the rings disappear and she claims it was because of my adhd and they will turn up eventually... In a home that was previosly emptied by natashia, theres no where to loose them in the house. Who has a history of theft, even outside of our relationship, with evidence. Due to signing under duress due to events caused by natashia and the reasons listed above natashia is to return oliver back the same day this agreement is signed.' },
-    { data: 'Home improvement loan' },
-    { data: '100% ownership - The loan to be paid in the total of its original amount, plus all fees that have been associated with the contract. MINUS any amounts natashia can prove she paid with her own money, a clear track from her account to the companies account. The total contract with associated fees comes up to $33,889.40' },
-    { data: '50 / 50 split - will be paid off by the proceeds from the house sale before the proceeds get split up to both owners along with paying the other debts first as well.' },
-    { data: 'Section total - $1807 a week since april 16 2024 plus 12 weeks && $33,889.40' },
+
 
   ]
   const BreachofContract = [
@@ -335,7 +337,7 @@ export default function NewFile() {
                         ))}
                       </AccordionContent>
                     </AccordionItem>
-                    <AccordionItem value="item-4">
+                    <AccordionItem value="item-5">
                       <AccordionTrigger>Court costs</AccordionTrigger>
                       <AccordionContent>
                         {Courtcosts.map((item, index) => (
@@ -359,7 +361,7 @@ export default function NewFile() {
                         ))}
                       </AccordionContent>
                     </AccordionItem>
-                    <AccordionItem value="item-4">
+                    <AccordionItem value="item-6">
                       <AccordionTrigger>Debt</AccordionTrigger>
                       <AccordionContent>
                         {Debt.map((item, index) => (
@@ -383,7 +385,7 @@ export default function NewFile() {
                         ))}
                       </AccordionContent>
                     </AccordionItem>
-                    <AccordionItem value="item-4">
+                    <AccordionItem value="item-7">
                       <AccordionTrigger>Misc.</AccordionTrigger>
                       <AccordionContent>
                         {Misc.map((item, index) => (
@@ -407,7 +409,7 @@ export default function NewFile() {
                         ))}
                       </AccordionContent>
                     </AccordionItem>
-                    <AccordionItem value="item-4">
+                    <AccordionItem value="item-8">
                       <AccordionTrigger>Breach of Contract</AccordionTrigger>
                       <AccordionContent>
                         {BreachofContract.map((item, index) => (
